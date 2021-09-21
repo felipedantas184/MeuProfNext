@@ -30,12 +30,14 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="pt">
+      <Html lang="pt-br">
         <Head>
           <meta charSet="utf-8" />
           <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 
+          <meta name="theme-color" content="#A334CB" />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         </Head>
         <body>
           <Main />

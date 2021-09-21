@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { TeachersList } from "../../components/Teachers/TeachersData";
 import Image from "next/image";
 import { BtnWrap, DetailsColumn1, DetailsColumn2, DetailsContainer, DetailsRow, DetailsWrapper, ExtLink, Heading, ImgWrap, SbjWrap, Subtitle, TextWrapper } from "../../components/Details/DetailsStyles";
@@ -38,6 +39,13 @@ export const getStaticPaths = async () => {
   const Details = ({ teacher }) => {
     return (
       <>
+      <Head>
+        <title>{teacher.name} | Aulas Particulares MeuProf</title>
+
+        <meta name="description" content={`Marque uma aula particular com ${teacher.name} e aproveite as vantagens do MeuProf!`}></meta>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      </Head>
+
       <DetailsContainer id="teachers" >
         <DetailsWrapper>
           <DetailsRow>

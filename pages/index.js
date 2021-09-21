@@ -11,7 +11,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Homepage</title>
+        <title>Meu Prof | Aulas Particulares</title>
+        <meta name="description" content="Aulas Particulares com MeuProf. Encontre o professor ideal para te ensinar as matérias que você precisa!" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
       </Head>
 
       <Hero />
