@@ -20,15 +20,12 @@ export const FooterLinkContainer = styled.div`
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
+    flex-direction: column;
   }
 `
 
 export const FooterLinkWrapper = styled.div`
   display: flex;
-
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
-  }
 `
 export const FooterLinkItems = styled.div`
   display: flex;
@@ -50,14 +47,15 @@ export const FooterLinkTitle = styled.h1`
   font-size: 14px;
   margin-bottom: 16px;
 `
-export const FooterLink = styled.a`
+export const FooterLink = styled.p`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
+  cursor: pointer;
 
   &:hover {
-    color: #01bf71;
+    color: #A334CB;
     transition: 0.3s ease-in-out;
   }
 `
@@ -103,4 +101,7 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+`
+export const ExtLink = styled.a`
+  text-decoration: none;
 `

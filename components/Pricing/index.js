@@ -12,7 +12,7 @@ const Pricing = () => {
 					{PricesList.map((price) => {
 						return(
 							<PricingCard key={price.id} yellow={price.pricipal} >
-								<PricingH3>{price.title}<br/><PricingSpan>(Attribution Required)</PricingSpan></PricingH3>
+								<PricingH3>{price.title}<br/><PricingSpan>{price.subtitle}</PricingSpan></PricingH3>
 								<PricingFigure>
 									<PricingCurrency>R$</PricingCurrency><PricingNumber>{price.value}</PricingNumber><PricingInterval>/{price.interval}</PricingInterval>
 								</PricingFigure>

@@ -1,8 +1,9 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterStyles'
+import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, ExtLink } from './FooterStyles'
 import { animateScroll as scroll } from 'react-scroll';
 import Link from 'next/link';
+import { Link as LinkS } from 'react-scroll';
 
 const Footer = () => {
   const toggleHome = () => {
@@ -15,70 +16,61 @@ const Footer = () => {
         <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-                <Link href="/" passHref>
-									<FooterLink>How it works</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
-									<FooterLink>Testimonials</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
-									<FooterLink>Carrers</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
-									<FooterLink>Investor</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
-									<FooterLink>Terms of Service</FooterLink>
-								</Link>
+              <FooterLinkTitle>Página Inicial</FooterLinkTitle>
+                <LinkS to="teachers">
+									<FooterLink>Professores</FooterLink>
+								</LinkS>
+	              <LinkS to="highlights">
+									<FooterLink>Diferenciais</FooterLink>
+								</LinkS>
+	              <LinkS to="perks">
+									<FooterLink>Vantagens</FooterLink>
+								</LinkS>
+	              <LinkS to="pricing">
+									<FooterLink>Preços</FooterLink>
+								</LinkS>
 	          </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
+              <FooterLinkTitle>Junte-se a Nós</FooterLinkTitle>
                 <Link href="/" passHref>
-									<FooterLink>Contact</FooterLink>
+									<FooterLink>Seja um professor</FooterLink>
 								</Link>
 	              <Link href="/" passHref>
-									<FooterLink>Support</FooterLink>
+									<FooterLink>Mande um e-mail</FooterLink>
 								</Link>
 	              <Link href="/" passHref>
-									<FooterLink>Destinations</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
-									<FooterLink>Sponsorships</FooterLink>
+									<FooterLink>Apoie-nos</FooterLink>
 								</Link>
 	          </FooterLinkItems>
           </FooterLinkWrapper>
 
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
+              <FooterLinkTitle>Sobre Nós</FooterLinkTitle>
                 <Link href="/" passHref>
-									<FooterLink>Submit Video</FooterLink>
+									<FooterLink>Quem somos</FooterLink>
 								</Link>
 	              <Link href="/" passHref>
-									<FooterLink>Ambassadors</FooterLink>
+									<FooterLink>Nossa missão</FooterLink>
 								</Link>
 	              <Link href="/" passHref>
-									<FooterLink>Agency</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
-									<FooterLink>Influencer</FooterLink>
+									<FooterLink>Projetos</FooterLink>
 								</Link>
 	          </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-                <Link href="/" passHref>
+                <ExtLink href="https://www.instagram.com/lafisio.ufpi/" target='_blank' rel="noreferrer" aria-label='Instagram'>
 									<FooterLink>Instagram</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
+								</ExtLink>
+	              <ExtLink href="https://www.instagram.com/lafisio.ufpi/" target='_blank' rel="noreferrer" aria-label='Facebook'>
 									<FooterLink>Facebook</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
+								</ExtLink>
+	              <ExtLink href="https://www.instagram.com/lafisio.ufpi/" target='_blank' rel="noreferrer" aria-label='Youtube'>
 									<FooterLink>Youtube</FooterLink>
-								</Link>
-	              <Link href="/" passHref>
+								</ExtLink>
+	              <ExtLink href="https://www.instagram.com/lafisio.ufpi/" target='_blank' rel="noreferrer" aria-label='Twitter'>
 									<FooterLink>Twitter</FooterLink>
-								</Link>
+								</ExtLink>
 	          </FooterLinkItems>
           </FooterLinkWrapper>
         </FooterLinkContainer>
@@ -89,21 +81,21 @@ const Footer = () => {
 								MeuProf
 							</SocialLogo>
             </Link>
-            <WebsiteRights>MeuProf © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>MeuProf © {new Date().getFullYear()} Criado por Felipe Dantas.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink rel="noreferrer" href='/' target='_blank' arial-label='Facebook'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='//www.instagram.com/leonardtcomdt/' target='_blank' arial-label='Instagram'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='//www.youtube.com/channel/UCF6Cz50AqAJcg6JC5LDRElg/videos?view_as=subscriber' target='_blank' arial-label='Youtube'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' arial-label='Youtube'>
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='/' target='_blank' arial-label='Twitter'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' arial-label='Twitter'>
                 <FaTwitter/>
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
