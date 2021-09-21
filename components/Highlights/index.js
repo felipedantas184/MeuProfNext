@@ -21,7 +21,7 @@ const Highlights = () => {
 							</HighlightsColumn2>
 						</HighlightsRow>
 						<ImgWrap>
-							<Image  src="/Perks/Saly-31.svg" width={300} height={300} />
+							<Image  src="/Perks/Saly-31.svg" width={300} height={300} alt="Diferenciais MeuProf" />
 						</ImgWrap>
 					</HighlightsWrapper>
 				</HighlightsContainer>

@@ -1,6 +1,6 @@
 import { TeachersList } from "../../components/Teachers/TeachersData";
 import Image from "next/image";
-import { BtnWrap, DetailsColumn1, DetailsColumn2, DetailsContainer, DetailsRow, DetailsWrapper, ExtLink, Heading, ImgWrap, SbjWrap, Subtitle, TextWrapper } from "./DetailsStyles";
+import { BtnWrap, DetailsColumn1, DetailsColumn2, DetailsContainer, DetailsRow, DetailsWrapper, ExtLink, Heading, ImgWrap, SbjWrap, Subtitle, TextWrapper } from "../../components/Details/DetailsStyles";
 import { ButtonTransparent } from "../../components/ButtonTransparentElement";
 import { Link as LinkS } from "react-scroll";
 import { Button} from "../../components/ButtonElement";
@@ -43,7 +43,7 @@ export const getStaticPaths = async () => {
           <DetailsRow>
             <DetailsColumn1>
               <ImgWrap>
-                <Image src={teacher.photo} width={300} height={300} />
+                <Image src={teacher.photo} width={300} height={300} alt={teacher.name} />
               </ImgWrap>
             </DetailsColumn1>
 
@@ -66,7 +66,7 @@ export const getStaticPaths = async () => {
           </DetailsRow>  
 
           <BtnWrap>
-            <Link href="/" >
+            <Link href="/" passHref >
               <ButtonPurple border>Ver Mais Professores</ButtonPurple>
             </Link>
             <LinkS to='pricing'
