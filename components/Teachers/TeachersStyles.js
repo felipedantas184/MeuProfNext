@@ -101,7 +101,7 @@ export const SubjectWpr  = styled.div`
   }
   
   input[type=radio]:checked ~ .block {
-  background-color: #A334CB;
+  background-color: #521B66;
   }
 
   @media screen and (max-width: 400px) {
@@ -117,7 +117,7 @@ export const SubjectWpr  = styled.div`
   }
 `
 export const SubjectBlock  = styled.label`
-  background: #BB6BD9;
+  background: #A334CB;
   max-width: 125px;
   max-height: 100px;
   border-radius: 10px;
@@ -135,7 +135,7 @@ export const SubjectBlock  = styled.label`
   &:hover {
   transition: all 0.5s ease-in-out;
   transform: scale(1.1);
-  background-color: #A334CB;
+  background-color: #521B66;
   }
 `
 export const SubjectName  = styled.span`

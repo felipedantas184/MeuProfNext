@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 
-          <meta name="theme-color" content="#A334CB" />
+          <meta name="theme-color" content="#411551" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         </Head>
         <body>
