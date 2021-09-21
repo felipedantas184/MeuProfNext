@@ -1,5 +1,16 @@
+:root {
+ --white: #F0EDEE;
+ --black: #0A090C;
+ --pink: #F45B69;
+ --purple: #BB6BD9;
+ --purple-dark: #A334CB;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
 }
