@@ -4,6 +4,7 @@ export const TeachersList = [
 	{
 		id: 1,
 		name: 'Felipe Dantas',
+		slug: 'felipe-dantas',
 		description: 'Estudante de Medicina UFPI, dou aulas particulares há dois anos',
 		fullDescription: 'Olá! Eu me chamo Felipe e sou estudante do quarto período de Medicina pela UFPI. Dou aulas particulares há 2 anos, com ênfase nas disciplinas de exatas.',
 		subject: 'Química',
@@ -18,6 +19,7 @@ export const TeachersList = [
 	{
 		id: 2,
 		name: 'Nicole Dantas',
+		slug: 'nicole-dantas',
 		description: 'Estudante de Medicina UFPI, dou aulas particulares há dois anos',
 		fullDescription: 'Olá! Eu me chamo Nicole e sou estudante do quarto período de Medicina pela UFPI. Dou aulas particulares há 2 anos, com ênfase nas disciplinas de exatas.',
 		subject: 'Física',
@@ -32,6 +34,7 @@ export const TeachersList = [
 	{
 		id: 3,
 		name: 'Jéssica Dantas',
+		slug: 'jessica-dantas',
 		description: 'Estudante de Medicina UFPI, dou aulas particulares há dois anos',
 		fullDescription: 'Olá! Eu me chamo Jéssica e sou estudante do quarto período de Medicina pela UFPI. Dou aulas particulares há 2 anos, com ênfase nas disciplinas de exatas.',
 		subject: 'Física',
@@ -45,7 +48,8 @@ export const TeachersList = [
 	},
 	{
 		id: 4,
-		name: 'Jéssica Dantas',
+		name: 'Rafael Viana',
+		slug: 'rafael-viana',
 		description: 'Estudante de Medicina UFPI, dou aulas particulares há dois anos',
 		fullDescription: 'Olá! Eu me chamo Jéssica e sou estudante do quarto período de Medicina pela UFPI. Dou aulas particulares há 2 anos, com ênfase nas disciplinas de exatas.',
 		subject: 'Física',

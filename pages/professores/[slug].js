@@ -16,7 +16,7 @@ export const getStaticPaths = async () => {
     // map data to an array of path objects with params (id)
     const paths = TeachersList.map(teacher => {
       return {
-        params: { id: teacher.id.toString() }
+        params: { slug: teacher.slug.toString() }
       }
     })
   
@@ -27,8 +27,8 @@ export const getStaticPaths = async () => {
   }
 
   export const getStaticProps = async (context) => {
-    const id = context.params.id;
-    const data = TeachersList.filter(item => item.id == id );
+    const slug = context.params.slug;
+    const data = TeachersList.filter(item => item.slug == slug );
 
     return {
       props: { teacher: data[0] }
