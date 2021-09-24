@@ -28,7 +28,7 @@ export const ButtonPurple = styled.div`
     }
     
     @media screen and (max-width: 768px) {
-	width: 100%;
+	width: ${({noTotal}) => (noTotal ? '80%' : '100%')};
     padding: 16px 32px;
     font-weight: 600;
     }

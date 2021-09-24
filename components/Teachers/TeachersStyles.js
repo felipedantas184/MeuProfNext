@@ -41,7 +41,6 @@ export const TeachersColumn1 = styled.div`
   align-items: center;
 `
 export const TeachersColumn2 = styled.div`
-  margin-bottom: 15px;
   grid-area: col2;
   padding: 0 15px;
 
@@ -81,6 +80,18 @@ export const Subtitle  = styled.p`
   line-height: 1.3;
   font-family: 'Josefin Sans';
   color: #33333A;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+`
+export const Warning  = styled.p`
+  max-width: 440px;
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: 'Josefin Sans';
+  color: #33333A;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -152,7 +163,7 @@ export const BtnWrap = styled.div`
 `;
 export const TeachersCard = styled.div`
   max-width: 500px;
-  height: 175px;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -190,11 +201,19 @@ export const TeachersName = styled.h3`
   color: #0A090C;
   font-size: 18px;
   margin-bottom: 4px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 ` 
 export const TeachersSubject = styled.span`
   font-family: 'Josefin Sans';
   color: #0A090C;
   font-size: 16px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 ` 
 export const TeachersDescription = styled.p`
   font-family: 'Josefin Sans';
@@ -202,6 +221,10 @@ export const TeachersDescription = styled.p`
   font-size: 16px;
 
   margin-bottom: 16px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 ` 
 export const TeachersBar = styled.p`
   max-width: 225px;

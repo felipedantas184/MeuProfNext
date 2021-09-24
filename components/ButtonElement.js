@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Button = styled.div`
     border-radius: 6px;
-    background: #F0EDEE;
+    background: ${({transparent}) => (transparent ? 'transparent' : '#F0EDEE')};
     color: #023047;
     white-space: nowrap;
-    padding: ${({big}) => (big ? '16px 24px' : '8px 16px')};
+    padding: ${({big, medium}) => (big ? '16px 24px' : medium ? '12px 16px' : '8px 16px')};
     font-size: ${({big}) => (big ? '18px' : '16px')};
     font-weight: 600;
     outline: none;
-    border: none;
+    border: ${({border}) => (border ? '1px solid #A334CB' : 'none')};
     cursor: pointer;
     display: flex;
     justify-content: center;
