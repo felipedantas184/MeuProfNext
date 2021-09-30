@@ -8,6 +8,8 @@ export const TeachersList = [
 		description: 'Estudante de Medicina UFPI, dou aulas particulares há dois anos',
 		fullDescription: 'Olá! Eu me chamo Felipe e sou estudante do quarto período de Medicina pela UFPI. Dou aulas particulares há 2 anos, com ênfase nas disciplinas de exatas.',
 		subject: 'Física',
+		secondary: 'Química',
+		third: 'Álgebra',
 		number: '5586995185757',
 		photo: 'https://avatars.githubusercontent.com/u/62896397?v=4',
 		subjects: {
@@ -23,12 +25,14 @@ export const TeachersList = [
 		description: 'Estudante de Medicina UFPI, dou aulas particulares há dois anos',
 		fullDescription: 'Olá! Eu me chamo Nicole e sou estudante do quarto período de Medicina pela UFPI. Dou aulas particulares há 2 anos, com ênfase nas disciplinas de exatas.',
 		subject: 'História',
+		secondary: 'Redação',
+		third: 'Geografia',
 		number: '5586995185757',
-		photo: 'https://pbs.twimg.com/profile_images/1381331655210717188/C4fTC-f1_400x400.jpg',
+		photo: '/NicoleMeuProf.jpg',
 		subjects: {
-			First: "Física",
-			Second: "Química",
-			Third: "Álgebra"
+			First: "História",
+			Second: "Redação",
+			Third: "Geografia"
 		}
 	},
 	{
@@ -38,12 +42,14 @@ export const TeachersList = [
 		description: 'Aprovado em odontologia UFPI, atualmente curso medicina UNIFACID',
 		fullDescription: 'Fala, pessoal! Eu me chamo Marcos Josué, curso medicina na UNIFACID. Tenho experiência com aulas particulares, principalmente biologia.',
 		subject: 'Biologia',
+		secondary: 'Química',
+		third: null,
 		number: '5586981314286',
 		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/225415558_4003016953157019_5688241491077397301_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=riEqNlnrdEUAX8aF45t&_nc_ht=scontent.fthe15-1.fna&oh=134d4237260d47d4600a4a1b725ecc2b&oe=617405A1',
 		subjects: {
 			First: "Biologia",
 			Second: "Química",
-			Third: ""
+			Third: null
 		}
 	},
 	{
@@ -53,6 +59,8 @@ export const TeachersList = [
 		description: 'Aprovado em medicina na UFPI, experiência com aulas particulares. ',
 		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
 		subject: 'Álgebra',
+		secondary: 'Geometria',
+		third: 'Química',
 		number: '5586988945476',
 		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
 		subjects: {
@@ -63,77 +71,70 @@ export const TeachersList = [
 	},
 	{
 		id: 5,
-		name: 'André Isac',
-		slug: 'andre-isac',
+		name: 'Gabriel Soares',
+		slug: 'gabriel-soares',
 		description: 'Aprovado em medicina na UFPI, experiência com aulas particulares. ',
 		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
-		subject: 'Biologia',
+		subject: 'Física',
+		secondary: 'Biologia',
+		third: null,
 		number: '5586988945476',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
+		photo: '/GabrielMeuProf.jpg',
 		subjects: {
 			First: "Física",
-			Second: "Geometria",
-			Third: "Química"
+			Second: "Biologia",
+			Third: null
 		}
 	},
 	{
 		id: 6,
-		name: 'André Isac',
-		slug: 'andre-isac',
+		name: 'João Gabriel',
+		slug: 'joao-gabriel',
 		description: 'Aprovado em medicina na UFPI, experiência com aulas particulares. ',
 		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
-		subject: 'Biologia',
+		subject: 'Química',
+		secondary: 'Fís.-Quím.',
+		third: 'Álgebra',
 		number: '5586988945476',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
+		photo: '/JoaoMeuProf.jpg',
 		subjects: {
-			First: "Física",
-			Second: "Geometria",
-			Third: "Química"
+			First: "Química",
+			Second: "Fís.-Quím.",
+			Third: "Álgebra"
 		}
 	},
 	{
 		id: 7,
-		name: 'André Isac',
-		slug: 'andre-isac',
+		name: 'Letícia Matos',
+		slug: 'leticia-matos',
 		description: 'Aprovado em medicina na UFPI, experiência com aulas particulares. ',
 		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
-		subject: 'Biologia',
+		subject: 'Redação',
+		secondary: 'Geografia',
+		third: 'História',
 		number: '5586988945476',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
+		photo: '/FranciscoMeuProf.jpg',
 		subjects: {
-			First: "Física",
-			Second: "Geometria",
-			Third: "Química"
+			First: "Redação",
+			Second: "Geografia",
+			Third: "História"
 		}
 	},
 	{
-		id: 8,
-		name: 'André Isac',
-		slug: 'andre-isac',
+		id: 7,
+		name: 'Francisco Gabriel',
+		slug: 'francisco-gabriel',
 		description: 'Aprovado em medicina na UFPI, experiência com aulas particulares. ',
 		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
-		subject: 'Biologia',
+		subject: 'Geometria',
+		secondary: 'Álgebra',
+		third: 'Fís.-Quím.',
 		number: '5586988945476',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
+		photo: '/FranciscoMeuProf.jpg',
 		subjects: {
-			First: "Física",
-			Second: "Geometria",
-			Third: "Química"
-		}
-	},
-	{
-		id: 9,
-		name: 'André Isac',
-		slug: 'andre-isac',
-		description: 'Aprovado em medicina na UFPI, experiência com aulas particulares. ',
-		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
-		subject: 'Biologia',
-		number: '5586988945476',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
-		subjects: {
-			First: "Física",
-			Second: "Geometria",
-			Third: "Química"
+			First: "Geometria",
+			Second: "Álgebra",
+			Third: "Fís.-Quím."
 		}
 	},
 ];
@@ -190,15 +191,15 @@ export const SubjectsList = [
 	},
 	{
 		id: 8,
-		name: 'Goegrafia',
+		name: 'Geografia',
 		urlName: 'geografia',
 		icon: <FaGlobeAmericas size={40} color="#F0EDEE" />,
 
 	},
 	{
 		id: 9,
-		name: 'Português',
-		urlName: 'portugues',
+		name: 'Redação',
+		urlName: 'redacao',
 		icon: <FaPen size={40} color="#F0EDEE" />,
 
 	},

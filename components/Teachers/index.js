@@ -72,6 +72,54 @@ const Teachers = () => {
 								</TeachersCard>
 							)
 						})}
+						{TeachersList.filter(item => item.secondary == selectedSubject ).slice(0, 1)
+						.map((teacher) => {
+							return (
+								<TeachersCard key={teacher.id} >
+									<TeachersImg>
+										<Image src={teacher.photo} alt="" width={115} height={115} />
+									</TeachersImg>
+									<TeachersTextWrapper>
+										<TeachersName>{teacher.name}</TeachersName>
+										<TeachersSubject> {selectedSubject}</TeachersSubject>
+										<TeachersBar />
+										<TeachersDescription>{teacher.description}</TeachersDescription>
+										<BtnWrap>
+											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
+												<SmallButton>Conversar</SmallButton>
+											</ExtLink>
+											<Link href={"/professores/" + teacher.slug} passHref >
+												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+											</Link>
+										</BtnWrap>
+									</TeachersTextWrapper>
+								</TeachersCard>
+							)
+						})}
+						{TeachersList.filter(item => item.third == selectedSubject).slice(0, 1)
+						.map((teacher) => {
+							return (
+								<TeachersCard key={teacher.id} >
+									<TeachersImg>
+										<Image src={teacher.photo} alt="" width={115} height={115} />
+									</TeachersImg>
+									<TeachersTextWrapper>
+										<TeachersName>{teacher.name}</TeachersName>
+										<TeachersSubject> {selectedSubject}</TeachersSubject>
+										<TeachersBar />
+										<TeachersDescription>{teacher.description}</TeachersDescription>
+										<BtnWrap>
+											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
+												<SmallButton>Conversar</SmallButton>
+											</ExtLink>
+											<Link href={"/professores/" + teacher.slug} passHref >
+												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+											</Link>
+										</BtnWrap>
+									</TeachersTextWrapper>
+								</TeachersCard>
+							)
+						})}
 						{(selectedSubject) && (
 							<Link href={"/" + selectedSubject} passHref >
 							<Button medium border transparent style={{maxWidth: '80%', marginTop: 8, color: '#41414A'}}>Ver Todos de {selectedSubject}</Button>

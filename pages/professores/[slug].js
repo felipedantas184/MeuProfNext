@@ -44,6 +44,17 @@ export const getStaticPaths = async () => {
 
         <meta name="description" content={`Marque uma aula particular com ${teacher.name} e aproveite as vantagens do MeuProf!`}></meta>
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <meta property="og:title" content={`${teacher.name} | Aulas Particulares MeuProf`}/>
+        <meta property="og:type" content="school"/>
+        <meta property="og:description" content={`Marque uma aula particular com ${teacher.name} e aproveite as vantagens do MeuProf!`}/>
+        <meta property="og:image" content={teacher.photo}/>
+        <meta property="og:site_name" content="MeuProf"/>
+
+        <meta property="twitter:title" content={`${teacher.name} | Aulas Particulares MeuProf`}/>
+        <meta property="twitter:url" content="https://meu-prof-next.vercel.app/como-funciona/"/>
+        <meta property="twitter:description" content={`Marque uma aula particular com ${teacher.name} e aproveite as vantagens do MeuProf!`}/>
+        <meta property="twitter:image" content={teacher.photo}/>
       </Head>
 
       <DetailsContainer id="teachers" >
@@ -65,7 +76,7 @@ export const getStaticPaths = async () => {
                   <Link href={"/" + teacher.subjects.Second} passHref >
                     <ButtonTransparent noAdjust >{teacher.subjects.Second}</ButtonTransparent>
                   </Link>
-                  {(teacher.subjects.Third != "") && (
+                  {(teacher.subjects.Third != null) && (
                     <Link href={"/" + teacher.subjects.Third} passHref >
                       <ButtonTransparent noAdjust >{teacher.subjects.Third}</ButtonTransparent>
                     </Link>
