@@ -15,7 +15,7 @@ export const getStaticPaths = async () => {
     // map data to an array of path objects with params (id)
     const paths = SubjectsList.map(subject => {
       return {
-        params: { subject: subject.name.toString() }
+        params: { subjectUrl: subject.urlName.toString() }
       }
     })
   
@@ -27,13 +27,17 @@ export const getStaticPaths = async () => {
 
 
   export const getStaticProps = async (context) => {
-    const subject = context.params.subject;
-    const data = TeachersList.filter(item => item.subject == subject );
-    const dataTwo = TeachersList.filter(item => item.secondary == subject );
-    const dataThree = TeachersList.filter(item => item.third == subject );
+    const subjectUrl = context.params.subjectUrl;
+    const subjectCheck = SubjectsList.filter(item => item.urlName == subjectUrl);
+
+    console.log(subjectCheck[0].name)
+
+    const data = TeachersList.filter(item => item.subject == subjectCheck[0].name );
+    const dataTwo = TeachersList.filter(item => item.secondary == subjectCheck[0].name );
+    const dataThree = TeachersList.filter(item => item.third == subjectCheck[0].name );
 
     return {
-      props: { teachers: data, teachersTwo: dataTwo, teachersThree: dataThree, subject: subject }
+      props: { teachers: data, teachersTwo: dataTwo, teachersThree: dataThree, subject: subjectCheck[0].name }
     }
   }
 

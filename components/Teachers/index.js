@@ -11,6 +11,7 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 
 const Teachers = () => {
 	const [selectedSubject, setSelectedSubject] = useState('')
+	const [selectedSubjectUrl, setSelectedSubjectUrl] = useState('')
 
 	console.log(selectedSubject)
 	
@@ -29,7 +30,7 @@ const Teachers = () => {
 										<input type="radio" className="inputChoice" name="subjectChoice" id={subject.id} />
 
 										<SubjectBlock className="block"
-											onClick={() => setSelectedSubject(subject.name)}
+											onClick={() => {setSelectedSubject(subject.name); setSelectedSubjectUrl(subject.urlName)}}
 											htmlFor={subject.id}
 										>
 											{subject.icon}
@@ -121,7 +122,7 @@ const Teachers = () => {
 							)
 						})}
 						{(selectedSubject) && (
-							<Link href={"/" + selectedSubject} passHref >
+							<Link href={"/" + selectedSubjectUrl} passHref >
 							<Button medium border transparent style={{maxWidth: '80%', marginTop: 8, color: '#41414A'}}>Ver Todos de {selectedSubject}</Button>
 							</Link>
 						)}
