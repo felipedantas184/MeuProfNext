@@ -95,7 +95,7 @@ const Footer = () => {
               <SocialIconLink rel="noreferrer" href='https://twitter.com/MeuProf_/' target='_blank' arial-label='Twitter'>
                 <FaTwitter/>
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/meu.prof/' target='_blank' arial-label='Linkedin'>
+              <SocialIconLink rel="noreferrer" href='https://www.linkedin.com/company/meu-prof/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
