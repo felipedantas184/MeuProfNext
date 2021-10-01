@@ -1,7 +1,7 @@
 import { FaAtom, FaDna, FaDraftingCompass, FaFlagUsa, FaGlobeAmericas, FaLandmark, FaPen, FaSquareRootAlt, FaUserAstronaut, FaVial } from "react-icons/fa";
 
 export const TeachersList = [
-	/*{
+	{
 		id: 1,
 		name: 'Felipe Dantas',
 		slug: 'felipe-dantas',
@@ -17,7 +17,7 @@ export const TeachersList = [
 			Second: "Química",
 			Third: "Álgebra"
 		}
-	},*/
+	},
 	{
 		id: 2,
 		name: 'Nicole Dantas',
