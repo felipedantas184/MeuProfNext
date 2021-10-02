@@ -84,7 +84,7 @@ export const getStaticPaths = async () => {
                 </SbjWrap>
                 <Subtitle>{teacher.fullDescription}</Subtitle>
                 <BtnWrap>
-                  <ExtLink href="https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20particular.%0APode%20me%20ajudar%3F" target="blank" >
+                  <ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20particular.%0APode%20me%20ajudar%3F`} target="blank" >
                     <Button big shadow>Agendar Horário</Button>
                   </ExtLink>
                 </BtnWrap>
