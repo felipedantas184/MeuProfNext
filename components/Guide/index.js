@@ -24,7 +24,9 @@ const Guide = ({number, title, description, lightBg, first, video, buttonLabel, 
 					<GuideColumn2>
 						<ImgWrap>
 							<video  autoPlay loop muted src={video} type="video/mp4" style={{ maxWidth: 250, borderRadius: 20, border: '0.5px solid #E1E2E3', display: photo ? 'none' : 'block'}} />
-							<img src={image} style={{ maxWidth: 300, borderRadius: 20, border: '0.5px solid #E1E2E3', display: photo ? 'block' : 'none'}} />
+							<div style={{position: 'relative', width: 300, height: 300, overflow: 'hidden',borderRadius: 20, border: '0.5px solid #E1E2E3', display: photo ? 'block' : 'none'}}>
+							<Image src={image} layout="fill" />
+							</div>
 						</ImgWrap>
 					</GuideColumn2>
 				</GuideRow>
