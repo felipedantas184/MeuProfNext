@@ -140,3 +140,17 @@ export const ImgWrap = styled.div`
     height: 80%;
   }
 `;
+
+export const ExtLink = styled.a`
+  text-decoration: none;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  @media screen and (max-width: 768px) {
+    &:not(:last-child) {
+    margin-right: 0px;
+  }
+  }
+`
