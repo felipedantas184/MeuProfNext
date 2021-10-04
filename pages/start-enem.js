@@ -8,8 +8,8 @@ export default function HowItWorks() {
   return (
     <>
       <Head>
-        <title>Como Funciona - MeuProf | Aulas Particulares</title>
-        <meta name="description" content="Encontrar o professor particular ideal para você nunca foi tão fácil! Confira o tutorial de como utilizar a plataforma MeuProf." />
+        <title>START ENEM - MeuProf | Aulas Particulares</title>
+        <meta name="description" content="SUPER REVISÃO + MENTORIA Meu Prof! Nós organizamos um projeto especial de revisão para vocês ficarem ainda mais seguros nessa reta final!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
 
