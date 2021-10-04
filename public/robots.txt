@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://meu-prof.vercel.app/sitemap.xml 
