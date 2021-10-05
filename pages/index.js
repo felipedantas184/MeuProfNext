@@ -14,8 +14,6 @@ export default function Home() {
         <title>MeuProf | Aulas Particulares</title>
         <meta name="description" content="Aulas Particulares com MeuProf. Encontre o professor ideal para te ensinar as matérias que você precisa!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-
-        <meta name="google-site-verification" content="CsqYewy3QltK0Z6AxOJW6bgPsLVfHUj3BNXFKl43V-Q" />
         
         <meta property="og:title" content="MeuProf | Aulas Particulares"/>
         <meta property="og:type" content="school"/>
