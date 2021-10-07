@@ -36,7 +36,7 @@ export const GuideThree = {
 
 export const GuideFour = {
 	number: '01',
-	link: 'https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
+	link: 'https://api.whatsapp.com/send?phone=5586988945476&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
 	title: 'Super Revisão + Mentoria',
 	description: 'Nós organizamos um projeto especial de revisão para vocês ficarem ainda mais seguros nessa reta final!',
 	video: '/video03.mp4',
@@ -49,7 +49,7 @@ export const GuideFour = {
 
 export const GuideFive = {
 	number: '02',
-	link: 'https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
+	link: 'https://api.whatsapp.com/send?phone=5586988945476&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
 	title: 'Encontros + Exercícios',
 	description: `O curso possui um primeiro encontro individual e orientado, seguido de um segundo encontro com resoluções de questões dos assuntos mais recorrentes.`,
 	video: '/video03.mp4',
@@ -62,7 +62,7 @@ export const GuideFive = {
 
 export const GuideSix = {
 	number: '03',
-	link: 'https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
+	link: 'https://api.whatsapp.com/send?phone=5586988945476&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
 	title: 'Guia Definitivo Redação',
 	description: 'O terceiro encontro será uma revisão para redação, através de análises dos textos 980 dos monitores.',
 	video: '/video03.mp4',
@@ -75,7 +75,7 @@ export const GuideSix = {
 
 export const GuideSeven = {
 	number: '04',
-	link: 'https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
+	link: 'https://api.whatsapp.com/send?phone=5586988945476&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20*Curso%20Start%20ENEM*.%0APode%20me%20ajudar%3F',
 	title: 'Vagas Limitadas',
 	description: 'Venha fazer parte da nossa turma e fique mais seguro para o ENEM! Corre que as vagas são limitadas!',
 	video: '/video03.mp4',
