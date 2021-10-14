@@ -160,6 +160,7 @@ export const BtnWrap = styled.div`
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+  gap: 8px;
 `;
 export const TeachersCard = styled.div`
   max-width: 500px;

@@ -96,6 +96,8 @@ export const BtnWrap = styled.div`
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+  gap: 16px;
+
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
