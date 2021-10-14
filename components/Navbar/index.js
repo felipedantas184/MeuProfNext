@@ -48,9 +48,9 @@ const Navbar = ({ toggle }) => {
 						>Vantagens</NavbarLinks>
 					</NavbarItem>
 					<NavbarItem>
-						<NavbarLinks to='pricing'
+						<NavbarLinks to='start'
 								smooth={true} duration={500} spy={true} exact='true' offset={-60}
-						>Preços</NavbarLinks>
+						>Start Enem</NavbarLinks>
 					</NavbarItem>
 
 					<NavbarBtn>

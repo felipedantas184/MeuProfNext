@@ -14,10 +14,11 @@ const Hero = () => {
 							<Heading>Precisa de Aulas Particulares?</Heading>
 							<Subtitle>Com o MeuProf você encontra o professor ideal para te ensinar as matérias que você quiser!</Subtitle>
 							<BtnWrap>
-								<ExtLink href="https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20particular.%0APode%20me%20ajudar%3F" target="blank" >
-									<Button shadow>Agendar Horário</Button>
-								</ExtLink>
 								<LinkS to='teachers'
+             					smooth={true} duration={500} spy={true} exact='true' offset={-60}>
+									<Button shadow>Agendar Horário</Button>
+								</LinkS>
+								<LinkS to='highlights'
              					smooth={true} duration={500} spy={true} exact='true' offset={-60}>
 								<ButtonTransparent>Conhecer Mais</ButtonTransparent>
 								</LinkS>

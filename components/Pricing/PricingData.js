@@ -12,7 +12,7 @@ export const PricesList = [
         item3: "Duração mínima de 2h*",
         link: "https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20contratar%20o%20Plano%20Iniciante.%0APode%20me%20ajudar%3F",
     },
-	/*{
+	{
 		id: 2,
         pricipal: true,
 		title: 'Mensal Simples',
@@ -24,12 +24,12 @@ export const PricesList = [
         item2: "Dúvidas por WhatsApp",
         item3: "Economia de 5%",
         link: "https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20contratar%20o%20Plano%20Mensal%20Simples.%0APode%20me%20ajudar%3F",
-    },*/
+    },
 	{
 		id: 3,
         pricipal: true,
 		title: 'Mensal Top',
-		subtitle: 'Melhor Opção',
+		subtitle: '',
         description: 'Dedicação total e foco em resultados',
         value: "540",
         interval: "Mês",

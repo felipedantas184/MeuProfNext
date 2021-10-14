@@ -6,7 +6,7 @@ import { BtnWrap, Heading, GuideColumn1, GuideColumn2, GuideContainer, GuideRow,
 
 const Guide = ({number, title, description, lightBg, first, video, buttonLabel, photo, image, link}) => {
 	return ( 
-		<GuideContainer lightBg={lightBg} first={first} >
+		<GuideContainer lightBg={lightBg} first={first} id="start" >
 			<GuideWrapper first={first} >
 				<GuideRow>
 					<GuideColumn1>

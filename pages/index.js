@@ -6,6 +6,8 @@ import Highlights from '../components/Highlights'
 import Perks from '../components/Perks'
 import Pricing from '../components/Pricing'
 import Teachers from '../components/Teachers'
+import Guide from '../components/Guide'
+import { GuideEight } from '../components/Guide/GuideData'
 
 export default function Home() {
   return (
@@ -31,7 +33,7 @@ export default function Home() {
       <Teachers />
       <Highlights />
       <Perks />
-      <Pricing />
+      <Guide {...GuideEight} />
     </>
   )
 }

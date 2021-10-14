@@ -85,3 +85,16 @@ export const GuideSeven = {
 	first: false,
 	image: '/startEnem01.jpeg'
 };
+
+export const GuideEight = {
+	number: 'TOP!',
+	link: 'https://meu-prof.vercel.app/start-enem',
+	title: 'Start Enem',
+	description: 'Conheça o projeto especial de revisão para vocês ficarem ainda mais seguros nessa reta final do ENEM!',
+	video: '/video03.mp4',
+	photo: true,
+	buttonLabel: 'Conhecer',
+	lightBg: false,
+	first: true,
+	image: '/startEnem01.jpeg'
+};

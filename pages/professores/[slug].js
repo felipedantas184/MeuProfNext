@@ -9,6 +9,7 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 import Pricing from "../../components/Pricing";
 import { ButtonPurple } from "../../components/ButtonPurple";
 import Link from 'next/link'
+import Teachers from '../../components/Teachers';
 
 
 
@@ -104,7 +105,7 @@ export const getStaticPaths = async () => {
         </DetailsWrapper>
       </DetailsContainer>
 
-      <Pricing />
+      <Teachers />
       </>
     );
   }
