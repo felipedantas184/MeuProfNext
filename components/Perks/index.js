@@ -1,4 +1,4 @@
-import { BsChevronDoubleDown } from "react-icons/bs";
+import { BsChevronDoubleDown, BsChevronDoubleUp } from "react-icons/bs";
 import { PerksList } from "./PerksData";
 import Image from 'next/image'
 import { BtnWrap, PerksCard, PerksContainer, PerksH2, PerksP, PerksRow, PerksTitle, PerksWrapper } from "./PerksStyles";
@@ -25,7 +25,7 @@ const Perks = () => {
 				<BtnWrap>
 					<LinkS to='teachers'
             smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-					<ButtonPurple><BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />Conheça Nossos Professores<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
+					<ButtonPurple><BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginRight: 16}} />Conheça Nossos Professores<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
 					</LinkS>
 				</BtnWrap>
 			</PerksWrapper>
