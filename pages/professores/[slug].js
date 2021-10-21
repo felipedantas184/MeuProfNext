@@ -95,11 +95,11 @@ export const getStaticPaths = async () => {
 
           <BtnWrap>
             <Link href="/" passHref >
-              <ButtonPurple border>Ver Mais Professores</ButtonPurple>
+              <ButtonPurple border>Voltar Para o Início</ButtonPurple>
             </Link>
-            <LinkS to='pricing'
+            <LinkS to='teachers'
               smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-            <ButtonPurple border><BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />Confira Nossos Planos<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
+            <ButtonPurple border><BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />Conheça Mais Professores<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
             </LinkS>
           </BtnWrap>        
         </DetailsWrapper>
