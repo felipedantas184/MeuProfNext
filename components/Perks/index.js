@@ -23,9 +23,9 @@ const Perks = () => {
 					})}
 				</PerksRow>
 				<BtnWrap>
-					<LinkS to='pricing'
+					<LinkS to='teachers'
             smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-					<ButtonPurple><BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />Confira Nossos Planos<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
+					<ButtonPurple><BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />Conheça Nossos Professores<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
 					</LinkS>
 				</BtnWrap>
 			</PerksWrapper>
