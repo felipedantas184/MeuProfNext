@@ -11,7 +11,7 @@ export const TeachersList = [
 		secondary: 'Química',
 		third: 'Álgebra',
 		number: '5586995185757',
-		photo: 'https://avatars.githubusercontent.com/u/62896397?v=4',
+		photo: '/FelipeMeuProf.jpg',
 		subjects: {
 			First: "Física",
 			Second: "Química",
@@ -45,7 +45,7 @@ export const TeachersList = [
 		secondary: 'Química',
 		third: null,
 		number: '5586981314286',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/225415558_4003016953157019_5688241491077397301_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=riEqNlnrdEUAX8aF45t&_nc_ht=scontent.fthe15-1.fna&oh=134d4237260d47d4600a4a1b725ecc2b&oe=617405A1',
+		photo: '/JosueMeuProf.jpg',
 		subjects: {
 			First: "Biologia",
 			Second: "Química",
@@ -62,7 +62,7 @@ export const TeachersList = [
 		secondary: 'Geometria',
 		third: 'Química',
 		number: '5586988945476',
-		photo: 'https://scontent.fthe15-1.fna.fbcdn.net/v/t1.6435-9/242414900_3617391761697076_7256936712505688769_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FPdwRqV0_3MAX93r3mX&_nc_ht=scontent.fthe15-1.fna&oh=cf985c04db45b5769137ad529cc456b5&oe=61723560',
+		photo: '/AndreMeuProf.jpg',
 		subjects: {
 			First: "Álgebra",
 			Second: "Geometria",
