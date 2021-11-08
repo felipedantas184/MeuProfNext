@@ -121,7 +121,7 @@ export const TeachersList = [
 		}
 	},
 	{
-		id: 7,
+		id: 8,
 		name: 'Francisco Gabriel',
 		slug: 'francisco-gabriel',
 		description: 'Ex-aluno do Dom Barreto e aprovado em medicina na UFPI em 2019',
