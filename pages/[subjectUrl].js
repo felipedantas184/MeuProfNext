@@ -158,7 +158,6 @@ export const getStaticPaths = async () => {
           </BtnWrapTwo>
         </AllTeachersWrapper>
       </AllTeachersContainer>      
-      <Pricing />
       </>
     );
   }
