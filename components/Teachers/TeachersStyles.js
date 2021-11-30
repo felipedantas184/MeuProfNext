@@ -112,7 +112,7 @@ export const SubjectWpr  = styled.div`
   }
   
   input[type=radio]:checked ~ .block {
-  background-color: #521B66;
+  background-color: #13131a;
   }
 
   @media screen and (max-width: 400px) {
@@ -128,7 +128,7 @@ export const SubjectWpr  = styled.div`
   }
 `
 export const SubjectBlock  = styled.label`
-  background: #A334CB;
+  background: #521B66;
   max-width: 125px;
   max-height: 100px;
   border-radius: 10px;

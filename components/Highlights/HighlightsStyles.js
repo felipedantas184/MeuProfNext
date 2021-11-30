@@ -1,7 +1,7 @@
 import styled from "styled-components"; 
 
 export const HighlightsContainer = styled.section`
-	background: #A334CB;
+	background: #411551;
   color: #13131A;
 	font-family: 'Josefin Sans';
 
@@ -62,7 +62,7 @@ export const HighlightsColumn2 = styled.div`
 export const TextWrapper = styled.div`
 	position: relative;
   width: 100%; 
-	background: #411551;
+	background: #521b66;
 
 	padding: 30px 15px 15px 30px;
 	border-radius: 10px;
@@ -103,7 +103,7 @@ export const Subtitle  = styled.p`
   font-size: 18px;
   line-height: 1.3;
   font-family: 'Josefin Sans';
-  color: #E1E2E3;
+  color: #F6F6F6;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;

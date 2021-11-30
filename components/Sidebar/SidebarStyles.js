@@ -70,7 +70,7 @@ export const SidebarRoute = styled.p`
   background: #A334CB;
   white-space: nowrap;
   padding: 16px 64px;
-  color: #010606;
+  color: #E6E6E6;
   font-size: 24px;
   outline:  none;
   border: none;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ButtonPurple = styled.div`
     border-radius: 6px;
-    background: #A334CB;
+    background: #411551;
     color: #F1F2F3;
     white-space: nowrap;
     padding: 16px 32px;

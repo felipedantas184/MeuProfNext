@@ -1,7 +1,7 @@
 import styled from "styled-components"; 
 
 export const HeroContainer = styled.section`
-  background: #A334CB;
+  background: #411551;
 	color: #F0EDEE;
 	font-family: 'Josefin Sans';
 
@@ -86,7 +86,7 @@ export const Subtitle  = styled.p`
   font-size: 20px;
   line-height: 1.3;
   font-family: 'Josefin Sans';
-  color: #F0EDEE;
+  color: #F6F6F6;
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -101,7 +101,7 @@ export const BtnWrap = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
-    gap: 8px;
+    gap: 12px;
   }
 `;
 export const ImgWrap = styled.div`

@@ -8,6 +8,7 @@ export const GuideOne = {
 	buttonLabel: 'Agendar Agora',
 	lightBg: false,
 	first: true,
+	image: '/startEnem01.jpeg'
 };
 
 export const GuideTwo = {
@@ -20,6 +21,7 @@ export const GuideTwo = {
 	buttonLabel: 'Agendar Agora',
 	lightBg: true,
 	first: false,
+	image: '/startEnem01.jpeg'
 };
 
 export const GuideThree = {
@@ -32,6 +34,7 @@ export const GuideThree = {
 	buttonLabel: 'Agendar Agora',
 	lightBg: false,
 	first: false,
+	image: '/startEnem01.jpeg',
 };
 
 export const GuideFour = {

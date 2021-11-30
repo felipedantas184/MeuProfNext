@@ -6,16 +6,16 @@ export const Button = styled.div`
     color: #023047;
     white-space: nowrap;
     padding: ${({big, medium}) => (big ? '16px 24px' : medium ? '12px 16px' : '8px 16px')};
-    font-size: ${({big}) => (big ? '18px' : '16px')};
+    font-size: ${({big, book}) => (big ? '18px' : book ? '18px' : '16px')};
     font-weight: 600;
     outline: none;
-    border: ${({border}) => (border ? '1px solid #A334CB' : 'none')};
+    border: ${({border}) => (border ? '1px solid #411551' : 'none')};
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
-    box-shadow: ${({shadow}) => (shadow ? 'rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px' : 'none')};
+    box-shadow: ${({shadow}) => (shadow ? 'rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px' : 'none')};
 
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight-color: transparent;
@@ -37,7 +37,7 @@ export const Button = styled.div`
 
 export const SmallButton = styled.div`
     border-radius: 6px;
-    background: #A334CB;
+    background: #411551;
     color: #F1F2F3;
     white-space: nowrap;
     padding: 6px 12px;

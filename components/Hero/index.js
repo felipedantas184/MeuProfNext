@@ -16,11 +16,11 @@ const Hero = () => {
 							<BtnWrap>
 								<LinkS to='teachers'
              					smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-									<Button shadow>Agendar Horário</Button>
+									<Button book shadow>Agendar Horário</Button>
 								</LinkS>
 								<LinkS to='highlights'
              					smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-								<ButtonTransparent>Conhecer Mais</ButtonTransparent>
+								<ButtonTransparent book>Conhecer Mais</ButtonTransparent>
 								</LinkS>
 							</BtnWrap>
 						</TextWrapper>

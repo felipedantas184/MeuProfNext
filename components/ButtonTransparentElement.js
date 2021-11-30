@@ -6,7 +6,7 @@ export const ButtonTransparent = styled.div`
     color: #F0EDEE;
     white-space: nowrap;
     padding: 8px 16px;
-    font-size: 16px;
+    font-size: ${({book}) => (book ? '18px' : '16px')};
     font-weight: 600;
     outline: none;
     border: 1px solid #F0EDEE;
@@ -19,7 +19,7 @@ export const ButtonTransparent = styled.div`
     &:hover {
     transition: all 0.5s ease-in-out;
     background: #F0EDEE;
-    color: #A334CB;
+    color: #411551;
     transform: scale(1.025);
     }
     &:not(:last-child) {
@@ -35,7 +35,7 @@ export const ButtonTransparent = styled.div`
 export const SmallButtonTransparent = styled.div`
     border-radius: 6px;
     background: transparent;
-    color: #A334CB;
+    color: #411551;
     white-space: nowrap;
     padding: 6px 12px;
     font-size: 16px;
@@ -51,7 +51,7 @@ export const SmallButtonTransparent = styled.div`
     &:hover {
     transition: all 0.5s ease-in-out;
     background: #F0EDEE;
-    color: #A334CB;
+    color: #411551;
     transform: scale(1.025);
     }
     &:not(:last-child) {

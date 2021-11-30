@@ -1,7 +1,7 @@
 import styled from "styled-components"; 
 
 export const DetailsContainer = styled.section`
-  background: #A334CB;
+  background: #411551;
 	color: #F0EDEE;
 	font-family: 'Josefin Sans';
 
