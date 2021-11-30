@@ -71,14 +71,14 @@ export const getStaticPaths = async () => {
               <TextWrapper>
                 <Heading>{teacher.name}</Heading>
                 <SbjWrap>
-                  <Link href={"/" + teacher.subjects.First} passHref >
+                  <Link href={"/" + teacher.subjects.FirstUrl} passHref >
                     <ButtonTransparent noAdjust >{teacher.subjects.First}</ButtonTransparent>
                   </Link>
-                  <Link href={"/" + teacher.subjects.Second} passHref >
+                  <Link href={"/" + teacher.subjects.SecondUrl} passHref >
                     <ButtonTransparent noAdjust >{teacher.subjects.Second}</ButtonTransparent>
                   </Link>
                   {(teacher.subjects.Third != null) && (
-                    <Link href={"/" + teacher.subjects.Third} passHref >
+                    <Link href={"/" + teacher.subjects.ThirdUrl} passHref >
                       <ButtonTransparent noAdjust >{teacher.subjects.Third}</ButtonTransparent>
                     </Link>
                   )}

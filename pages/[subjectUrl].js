@@ -155,10 +155,6 @@ export const getStaticPaths = async () => {
             <Link href="/" passHref >
               <ButtonPurple border>Ver Mais Professores</ButtonPurple>
             </Link>
-            <LinkS to='pricing'
-              smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-            <ButtonPurple border><BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />Confira Nossos Planos<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
-            </LinkS>
           </BtnWrapTwo>
         </AllTeachersWrapper>
       </AllTeachersContainer>      

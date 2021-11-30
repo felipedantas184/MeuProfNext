@@ -14,8 +14,11 @@ export const TeachersList = [
 		photo: '/FelipeMeuProf.jpg',
 		subjects: {
 			First: "Física",
+			FirstUrl: "fisica",
 			Second: "Química",
-			Third: "Álgebra"
+			SecondUrl: "quimica",
+			Third: "Álgebra",
+			ThirdUrl: "algebra"
 		}
 	},
 	{
@@ -31,8 +34,11 @@ export const TeachersList = [
 		photo: '/NicoleMeuProf.jpg',
 		subjects: {
 			First: "História",
+			FirstUrl: "historia",
 			Second: "Redação",
-			Third: "Geografia"
+			SecondUrl: "redacao",
+			Third: "Geografia",
+			ThirdUrl: "geografia"
 		}
 	},
 	{
@@ -48,8 +54,11 @@ export const TeachersList = [
 		photo: '/JosueMeuProf.jpg',
 		subjects: {
 			First: "Biologia",
+			FirstUrl: "biologia",
 			Second: "Química",
-			Third: null
+			SecondUrl: "quimica",
+			Third: null,
+			ThirdUrl: null
 		}
 	},
 	{
@@ -65,8 +74,11 @@ export const TeachersList = [
 		photo: '/AndreMeuProf.jpg',
 		subjects: {
 			First: "Álgebra",
+			FirstUrl: "algebra",
 			Second: "Geometria",
-			Third: "Química"
+			SecondUrl: "geometria",
+			Third: "Química",
+			ThirdUrl: "quimica"			
 		}
 	},
 	{
@@ -82,8 +94,11 @@ export const TeachersList = [
 		photo: '/GabrielMeuProf.jpg',
 		subjects: {
 			First: "Física",
+			FirstUrl: "fisica",
 			Second: "Biologia",
-			Third: null
+			SecondUrl: "biologia",
+			Third: null,
+			ThirdUrl: null
 		}
 	},
 	{
@@ -99,8 +114,11 @@ export const TeachersList = [
 		photo: '/JoaoMeuProf.jpg',
 		subjects: {
 			First: "Química",
+			FirstUrl: "quimica",
 			Second: "Fís.-Quím.",
-			Third: "Álgebra"
+			SecondUrl: "fisico-quimica",
+			Third: "Álgebra",
+			ThirdUrl: "algebra"
 		}
 	},
 	{
@@ -116,8 +134,11 @@ export const TeachersList = [
 		photo: '/LeticiaMeuProf.jpg',
 		subjects: {
 			First: "Redação",
+			FirstUrl: "redacao",
 			Second: "Geografia",
-			Third: "História"
+			SecondUrl: "geografia",
+			Third: "História",
+			ThirdUrl: "historia"
 		}
 	},
 	{
@@ -133,8 +154,11 @@ export const TeachersList = [
 		photo: '/FranciscoMeuProf.jpg',
 		subjects: {
 			First: "Geometria",
+			FirstUrl: "geometria",
 			Second: "Álgebra",
-			Third: "Fís.-Quím."
+			SecondUrl: "algebra",
+			Third: "Fís.-Quím.",
+			ThirdUrl: "fisico-quimica"
 		}
 	},
 ];
