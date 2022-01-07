@@ -45,10 +45,8 @@ export const TeachersColumn2 = styled.div`
   grid-area: col2;
   padding: 15px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
 
   transition: all 0.5s ease-in-out;
 
@@ -161,6 +159,7 @@ export const BtnWrap = styled.div`
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
   gap: 2px;
 `;
 export const TeachersCard = styled.div`

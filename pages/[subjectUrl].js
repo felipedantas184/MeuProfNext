@@ -95,10 +95,10 @@ export const getStaticPaths = async () => {
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
 											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Conversar</SmallButton>
+												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -118,10 +118,10 @@ export const getStaticPaths = async () => {
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
 											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Conversar</SmallButton>
+												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -141,10 +141,10 @@ export const getStaticPaths = async () => {
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
 											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Conversar</SmallButton>
+												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>

@@ -26,7 +26,7 @@ const Perks = () => {
 				<ButtonScorll to='teachers' dark='true' style={{marginTop: 48}}
 					smooth={true} duration={500} spy={true} exact='true' offset={-20}>
 					<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginRight: 16}} />
-					Conheça Nossos Professores
+					Conheça os Professores
 					<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginLeft: 16}} />
 				</ButtonScorll>
 			</PerksWrapper>

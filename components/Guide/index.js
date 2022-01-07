@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { ButtonTransparent } from "../ButtonTransparentElement";
 import { Link as LinkS } from "react-scroll";
 import { BtnWrap, Heading, GuideColumn1, GuideColumn2, GuideContainer, GuideRow, GuideWrapper, Subtitle, TextWrapper, Number, ImgWrap, TextBigWrapper, ExtLink } from "./GuideStyles";
+import { ButtonLink, ButtonWrapper } from "../UsefulComponents";
 
 const Guide = ({number, title, description, lightBg, first, video, buttonLabel, photo, image, link}) => {
 	return ( 
@@ -15,9 +16,11 @@ const Guide = ({number, title, description, lightBg, first, video, buttonLabel, 
 								<TextWrapper>
 									<Heading lightBg={lightBg} >{title}</Heading>
 									<Subtitle lightBg={lightBg} >{description}</Subtitle>
-									<ExtLink href={link} target="blank" passHref >
-										<ButtonStart medium>{buttonLabel}</ButtonStart>
-									</ExtLink>
+									<ButtonWrapper>
+										<ButtonLink href={link} target="blank"  dark={lightBg} style={{marginLeft: 0}} >
+											{buttonLabel}
+										</ButtonLink>
+									</ButtonWrapper>
 								</TextWrapper>
 						</TextBigWrapper>
 					</GuideColumn1>

@@ -65,7 +65,7 @@ const Teachers = () => {
 												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Ver Perfil</SmallButtonTransparent>
+												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -89,7 +89,7 @@ const Teachers = () => {
 												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Ver Perfil</SmallButtonTransparent>
+												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -113,7 +113,7 @@ const Teachers = () => {
 												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Ver Perfil</SmallButtonTransparent>
+												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>

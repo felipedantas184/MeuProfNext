@@ -17,26 +17,30 @@ const Footer = () => {
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Página Inicial</FooterLinkTitle>
-                <LinkS to="teachers">
+                <LinkS to="teachers"
+        					smooth={true} duration={500} spy={true} exact='true' offset={-20}>
 									<FooterLink>Professores</FooterLink>
 								</LinkS>
-	              <LinkS to="highlights">
-									<FooterLink>Diferenciais</FooterLink>
+	              <LinkS to="highlights"
+        					smooth={true} duration={500} spy={true} exact='true' offset={-60}>
+									<FooterLink>Motivos</FooterLink>
 								</LinkS>
-	              <LinkS to="perks">
+	              <LinkS to="perks"
+        					smooth={true} duration={500} spy={true} exact='true' offset={-20}>
 									<FooterLink>Vantagens</FooterLink>
 								</LinkS>
-	              <LinkS to="pricing">
-									<FooterLink>Preços</FooterLink>
+	              <LinkS to="start"
+        					smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+									<FooterLink>Enem</FooterLink>
 								</LinkS>
 	          </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Junte-se a Nós</FooterLinkTitle>
                 <Link href="/start-enem" passHref>
-									<FooterLink>Curso Start ENEM</FooterLink>
+									<FooterLink>Cursos Enem</FooterLink>
 								</Link>
 	              <ExtLink href="mailto:meuprof.contato@gmail.com" target='_blank' rel="noreferrer" aria-label='Email'>
-									<FooterLink>Mande um e-mail</FooterLink>
+									<FooterLink>E-mail MeuProf</FooterLink>
 								</ExtLink>
 	              <Link href="/" passHref>
 									<FooterLink>Apoie-nos</FooterLink>
@@ -68,8 +72,8 @@ const Footer = () => {
 	              <ExtLink href="mailto:meuprof.contato@gmail.com" target='_blank' rel="noreferrer" aria-label='Email'>
 									<FooterLink>Email</FooterLink>
 								</ExtLink>
-	              <ExtLink href="https://twitter.com/MeuProf_/" target='_blank' rel="noreferrer" aria-label='Twitter'>
-									<FooterLink>Twitter</FooterLink>
+	              <ExtLink href="https://www.linkedin.com/company/meu-prof/" target='_blank' rel="noreferrer" aria-label='LinkedIn'>
+									<FooterLink>LinkedIn</FooterLink>
 								</ExtLink>
 	          </FooterLinkItems>
           </FooterLinkWrapper>
@@ -83,17 +87,14 @@ const Footer = () => {
             </Link>
             <WebsiteRights>MeuProf © {new Date().getFullYear()} Criado por Felipe Dantas.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink rel="noreferrer" href='https://www.facebook.com/MeuProf.THE/' target='_blank' arial-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
               <SocialIconLink rel="noreferrer" href='https://www.instagram.com/meu.prof/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
               </SocialIconLink>
+              <SocialIconLink rel="noreferrer" href='https://www.facebook.com/MeuProf.THE/' target='_blank' arial-label='Facebook'>
+                <FaFacebook />
+              </SocialIconLink>
               <SocialIconLink rel="noreferrer" href="mailto:meuprof.contato@gmail.com" target='_blank' arial-label='Email'>
                 <FaEnvelope />
-              </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://twitter.com/MeuProf_/' target='_blank' arial-label='Twitter'>
-                <FaTwitter/>
               </SocialIconLink>
               <SocialIconLink rel="noreferrer" href='https://www.linkedin.com/company/meu-prof/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />

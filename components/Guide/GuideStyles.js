@@ -1,7 +1,7 @@
 import styled from "styled-components"; 
 
 export const GuideContainer = styled.section`
-  background: ${({lightBg}) => (lightBg ? '#FFF' : '#411551')};
+  background: ${({lightBg}) => (lightBg ? '#FFF' : 'linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 75%)')};
 	color: ${({lightBg}) => (lightBg ? '#13131A' : '#F0EDEE')};
 	font-family: 'Josefin Sans';
 
