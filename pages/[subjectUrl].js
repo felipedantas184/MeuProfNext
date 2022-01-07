@@ -10,6 +10,7 @@ import { AllPerSubjectColumn1, AllPerSubjectColumn2, AllPerSubjectContainer, All
 import { Link as LinkS } from "react-scroll";
 import { ButtonPurple } from '../components/ButtonPurple';
 import { BsChevronDoubleDown } from 'react-icons/bs';
+import { ButtonInternalLink, ButtonWrapper } from '../components/UsefulComponents';
 
 export const getStaticPaths = async () => {  
     // map data to an array of path objects with params (id)
@@ -80,7 +81,7 @@ export const getStaticPaths = async () => {
 
       <AllTeachersContainer id="teachers" >
         <AllTeachersWrapper>
-          <AllTeachersRow>
+          <AllTeachersRow style={{marginBottom: 48}} >
             {teachers.map((teacher) => {
 							return (
 								<TeachersCard key={teacher.id} >
@@ -151,11 +152,11 @@ export const getStaticPaths = async () => {
 							)
 						})}
           </AllTeachersRow>
-          <BtnWrapTwo>
-            <Link href="/" passHref >
-              <ButtonPurple border>Ver Mais Professores</ButtonPurple>
-            </Link>
-          </BtnWrapTwo>
+          <Link href="/#teachers" passHref>
+            <ButtonWrapper>
+              <ButtonInternalLink dark='true'>Ver Mais Professores</ButtonInternalLink>
+            </ButtonWrapper>
+          </Link>
         </AllTeachersWrapper>
       </AllTeachersContainer>      
       </>

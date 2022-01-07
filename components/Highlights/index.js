@@ -1,16 +1,17 @@
 import { Heading, HighlightsColumn1, HighlightsColumn2, HighlightsContainer, HighlightsHeading, HighlightsRow, HighlightsWrapper, ImgWrap, ServicesCard, ServicesH2, ServicesIcon, ServicesP, ServicesRow, Subtitle, TextWrapper } from "./HighlightsStyles";
 import Image from 'next/image'
+import { Button, ButtonScorll } from "../UsefulComponents";
 
 const Highlights = () => {
     return ( 
         <HighlightsContainer id="highlights">
 					<HighlightsWrapper>
-						<HighlightsHeading>Diferenciais</HighlightsHeading>
+						<HighlightsHeading>Motivos</HighlightsHeading>
 						<HighlightsRow>
 							<HighlightsColumn1>
 								<TextWrapper first>
 									<Heading>Ensino Médio <br/> e Fundamental</Heading>
-									<Subtitle>Nossa equipe é formada por professores preparados para ensinar alunos de vários anos escolares, do ensino fundamental ao médio</Subtitle>
+									<Subtitle>Nossa equipe é formada por professores preparados para ensinar alunos de vários anos escolares, do ensino fundamental ao médio.</Subtitle>
 								</TextWrapper>
 							</HighlightsColumn1>
 							<HighlightsColumn2>
@@ -20,9 +21,10 @@ const Highlights = () => {
 								</TextWrapper>
 							</HighlightsColumn2>
 						</HighlightsRow>
-						<ImgWrap>
-							<Image  src="/Perks/Saly-31.svg" width={300} height={300} alt="Diferenciais MeuProf" />
-						</ImgWrap>
+						<ButtonScorll to='teachers' light='true' style={{marginTop: 48}}
+							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+							Marcar Aula Particular
+						</ButtonScorll>					
 					</HighlightsWrapper>
 				</HighlightsContainer>
      );

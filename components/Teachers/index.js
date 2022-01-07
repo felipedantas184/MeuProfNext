@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button, SmallButton } from "../ButtonElement";
-import { ButtonTransparent, SmallButtonTransparent } from "../ButtonTransparentElement";
-import { BtnWrap, ExtLink, Heading, ImgWrap, SubjectBlock, SubjectName, SubjectWpr, Subtitle, TeachersBar, TeachersCard, TeachersColumn1, TeachersColumn2, TeachersContainer, TeachersDescription, TeachersImg, TeachersName, TeachersRow, TeachersSubject, TeachersTextWrapper, TeachersWrapper, TextWrapper, Warning } from "./TeachersStyles";
+import { SmallButtonTransparent } from "../ButtonTransparentElement";
+import { BtnWrap, ExtLink, Heading, ImgWrap, Spinner, SubjectBlock, SubjectName, SubjectWpr, Subtitle, TeachersBar, TeachersCard, TeachersColumn1, TeachersColumn2, TeachersContainer, TeachersDescription, TeachersImg, TeachersName, TeachersRow, TeachersSubject, TeachersTextWrapper, TeachersWrapper, TextWrapper, Warning } from "./TeachersStyles";
 import { TeachersList, SubjectsList } from "./TeachersData";
 import { useState } from "react";
 import { FaSpinner } from "react-icons/fa";
-import { ButtonPurple } from "../ButtonPurple";
-import { BsChevronDoubleDown } from "react-icons/bs";
+import { ButtonInternalLink, ButtonWrapper } from "../UsefulComponents";
 
 const Teachers = () => {
 	const [selectedSubject, setSelectedSubject] = useState('')
@@ -45,8 +44,8 @@ const Teachers = () => {
 					<TeachersColumn2>
 						{(!selectedSubject) && (
 							<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 16, marginTop: 32}} >
-							<FaSpinner size={32} color="#C4C4C4" />
-							<Warning>Escolha uma matéria para ver os nossos professores!</Warning>
+							<Spinner size={32} color="#C4C4C4" />
+							<Warning>Escolha uma matéria primeiro para conhecer os nossos professores!</Warning>
 							</div>
 						)}
 						{TeachersList.filter(item => item.subject == selectedSubject ).slice(0, 3)
@@ -63,10 +62,10 @@ const Teachers = () => {
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
 											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Conversar</SmallButton>
+												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+												<SmallButtonTransparent>Ver Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -87,10 +86,10 @@ const Teachers = () => {
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
 											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Conversar</SmallButton>
+												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+												<SmallButtonTransparent>Ver Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -111,10 +110,10 @@ const Teachers = () => {
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
 											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Conversar</SmallButton>
+												<SmallButton>Marcar Aula</SmallButton>
 											</ExtLink>
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Conhecer</SmallButtonTransparent>
+												<SmallButtonTransparent>Ver Perfil</SmallButtonTransparent>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -123,7 +122,9 @@ const Teachers = () => {
 						})}
 						{(selectedSubject) && (
 							<Link href={"/" + selectedSubjectUrl} passHref >
-							<Button medium border transparent style={{maxWidth: '80%', marginTop: 8, color: '#41414A'}}>Ver Todos de {selectedSubject}</Button>
+							<ButtonWrapper>
+								<ButtonInternalLink light='true'>Ver Todos  de {selectedSubject}</ButtonInternalLink>
+							</ButtonWrapper>
 							</Link>
 						)}
 					</TeachersColumn2>

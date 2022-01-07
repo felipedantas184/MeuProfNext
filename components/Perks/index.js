@@ -5,6 +5,7 @@ import { BtnWrap, PerksCard, PerksContainer, PerksH2, PerksP, PerksRow, PerksTit
 import { Button } from "../ButtonElement";
 import { ButtonPurple } from "../ButtonPurple";
 import { Link as LinkS } from "react-scroll";
+import { ButtonScorll } from "../UsefulComponents";
 
 const Perks = () => {
 	return ( 
@@ -22,12 +23,12 @@ const Perks = () => {
 						)
 					})}
 				</PerksRow>
-				<BtnWrap>
-					<LinkS to='teachers'
-            smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-					<ButtonPurple><BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginRight: 16}} />Conheça Nossos Professores<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginLeft: 16}} /></ButtonPurple>
-					</LinkS>
-				</BtnWrap>
+				<ButtonScorll to='teachers' dark='true' style={{marginTop: 48}}
+					smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+					<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginRight: 16}} />
+					Conheça Nossos Professores
+					<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginLeft: 16}} />
+				</ButtonScorll>
 			</PerksWrapper>
 		</PerksContainer>
 	 );

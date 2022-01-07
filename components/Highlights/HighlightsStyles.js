@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const HighlightsContainer = styled.section`
 	background: #411551;
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 90%);
+
   color: #13131A;
 	font-family: 'Josefin Sans';
 
@@ -12,7 +14,7 @@ export const HighlightsWrapper = styled.div`
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-  padding: 75px 24px;
+  padding: 75px 16px;
 `
 export const HighlightsHeading = styled.h1`
   margin-bottom: 48px;
@@ -101,7 +103,8 @@ export const Subtitle  = styled.p`
   max-width: 440px;
   margin-bottom: 15px;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
   font-family: 'Josefin Sans';
   color: #F6F6F6;
 

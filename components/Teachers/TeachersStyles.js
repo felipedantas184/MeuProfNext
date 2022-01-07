@@ -1,3 +1,4 @@
+import { FaSpinner } from "react-icons/fa";
 import styled from "styled-components"; 
 
 export const TeachersContainer = styled.section`
@@ -13,7 +14,7 @@ export const TeachersWrapper = styled.div`
   min-height: 90vh;
 	margin-left: auto;
 	margin-right: auto;
-  padding: 75px 24px;
+  padding: 75px 16px;
 
 	display: flex;
 	justify-content: center;
@@ -42,19 +43,17 @@ export const TeachersColumn1 = styled.div`
 `
 export const TeachersColumn2 = styled.div`
   grid-area: col2;
-  padding: 0 15px;
+  padding: 15px;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  max-height: 600px;
-  overflow-y: hidden;
 
   transition: all 0.5s ease-in-out;
 
   @media screen and (max-width: 768px) {
-    padding: 0;
+    padding: 0 0 15px 0;
   }
 `
 export const TextWrapper = styled.div`
@@ -77,12 +76,13 @@ export const Subtitle  = styled.p`
   max-width: 440px;
   margin-bottom: 24px;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 1.25;
   font-family: 'Josefin Sans';
   color: #33333A;
+  letter-spacing: -0.5px;
 
   @media screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: 20px;
   }
 `
 export const Warning  = styled.p`
@@ -142,6 +142,7 @@ export const SubjectBlock  = styled.label`
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: all 0.5s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
 
   &:hover {
   transition: all 0.5s ease-in-out;
@@ -244,5 +245,15 @@ export const ExtLink = styled.a`
     &:not(:last-child) {
     margin-right: 12px;
   }
+  }
+`
+
+export const Spinner = styled(FaSpinner)`
+  animation: spin 2s linear infinite;;
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(225deg); }
+    100% { transform: rotate(360deg); }
   }
 `

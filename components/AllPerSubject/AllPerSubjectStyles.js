@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const AllPerSubjectContainer = styled.section`
   background: #411551;
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 90%);
+
 	color: #F0EDEE;
 	font-family: 'Josefin Sans';
 
@@ -122,7 +124,7 @@ export const AllTeachersWrapper = styled.div`
   min-height: 95vh;
 	margin-left: auto;
 	margin-right: auto;
-  padding: 24px 24px 50px 24px;
+  padding: 24px 16px 50px 16px;
 
 	display: flex;
   flex-direction: column;

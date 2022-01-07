@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const DetailsContainer = styled.section`
   background: #411551;
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 75%);
+
 	color: #F0EDEE;
 	font-family: 'Josefin Sans';
 
@@ -128,7 +130,7 @@ export const ImgWrap = styled.div`
   align-items: center;
 	border-radius: 50px;
 	overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px;
   
   @media screen and (max-width: 768px) {
     max-width: 200px;

@@ -4,12 +4,12 @@ import Image from "next/image";
 import { BtnWrap, DetailsColumn1, DetailsColumn2, DetailsContainer, DetailsRow, DetailsWrapper, ExtLink, Heading, ImgWrap, SbjWrap, Subtitle, TextWrapper } from "../../components/Details/DetailsStyles";
 import { ButtonTransparent } from "../../components/ButtonTransparentElement";
 import { Link as LinkS } from "react-scroll";
-import { Button} from "../../components/ButtonElement";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import Pricing from "../../components/Pricing";
 import { ButtonPurple } from "../../components/ButtonPurple";
 import Link from 'next/link'
 import Teachers from '../../components/Teachers';
+import { ButtonLink, ButtonWrapper } from '../../components/UsefulComponents';
 
 
 
@@ -58,7 +58,7 @@ export const getStaticPaths = async () => {
         <meta property="twitter:image" content={teacher.photo}/>
       </Head>
 
-      <DetailsContainer id="teachers" >
+      <DetailsContainer>
         <DetailsWrapper>
           <DetailsRow>
             <DetailsColumn1>
@@ -84,17 +84,17 @@ export const getStaticPaths = async () => {
                   )}
                 </SbjWrap>
                 <Subtitle>{teacher.fullDescription}</Subtitle>
-                <BtnWrap>
-                  <ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20particular.%0APode%20me%20ajudar%3F`} target="blank" >
-                    <Button big shadow>Agendar Horário</Button>
-                  </ExtLink>
-                </BtnWrap>
+                <ButtonWrapper>
+                  <ButtonLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20particular.%0APode%20me%20ajudar%3F`} target="blank"  light='true' style={{marginLeft: 0}} >
+                    Agendar Horário
+                  </ButtonLink>
+                </ButtonWrapper>
               </TextWrapper>
             </DetailsColumn2>
           </DetailsRow>  
 
           <BtnWrap>
-            <Link href="/" passHref >
+            <Link href="/#teachers" passHref >
               <ButtonPurple border>Voltar Para o Início</ButtonPurple>
             </Link>
             <LinkS to='teachers'

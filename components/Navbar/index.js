@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
 					<NavbarItem>
 						<NavbarLinks to='highlights'
              		smooth={true} duration={500} spy={true} exact='true' offset={-60}
-						>Diferenciais</NavbarLinks>
+						>Motivos</NavbarLinks>
 					</NavbarItem>
 					<NavbarItem>
 						<NavbarLinks to='perks'
@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
 					<NavbarItem>
 						<NavbarLinks to='start'
 								smooth={true} duration={500} spy={true} exact='true' offset={-60}
-						>Start Enem</NavbarLinks>
+						>Enem</NavbarLinks>
 					</NavbarItem>
 
 					<NavbarBtn>

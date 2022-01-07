@@ -1,8 +1,13 @@
-import { ButtonWrapper, HeroContainer, GridWrapper, HalfWrapper, Heading, Subtitle, TextWrapper, ButtonScorll, ImageWrapper } from "../../components/UsefulComponents";
+import { ButtonWrapper, HeroContainer, GridWrapper, HalfWrapper, Heading, Subtitle, TextWrapper, ButtonScorll, ImageWrapper } from "../components/UsefulComponents";
 import Image from 'next/image'
+import Teachers from '../components/Teachers'
+import Perks from '../components/Perks'
+import Highlights from '../components/Highlights'
+import Enem from "../components/Enem";
 
-const Hero = () => {
+const Test = () => {
 	return ( 
+		<>
 		<HeroContainer>
 			<GridWrapper>
 				<HalfWrapper start='true'>
@@ -16,7 +21,7 @@ const Hero = () => {
 							Aulas Particulares
 						</ButtonScorll>
 						<ButtonScorll to='start' dark='true'
-							smooth={true} duration={500} spy={true} exact='true' offset={0}>
+							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
 							Preparação ENEM
 						</ButtonScorll>
 					</ButtonWrapper>	
@@ -28,7 +33,13 @@ const Hero = () => {
 				</HalfWrapper>
 			</GridWrapper>
 		</HeroContainer>
+		<Teachers />
+		<Highlights />
+		<Perks />
+
+		<Enem />
+		</>
 		);
 }
  
-export default Hero;
+export default Test;

@@ -29,6 +29,7 @@ export const NavbarLogo = styled.a`
 `
 export const MobileIcon = styled.div`
   display: none;
+  -webkit-tap-highlight-color: transparent;
   
   @media screen and (max-width: 768px) {
     display: block;

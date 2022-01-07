@@ -8,6 +8,7 @@ export const SidebarContainer = styled.aside`
   width: 100%;
   height: 100%;
   background: #411551;
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 95%);
   display: grid;
   align-items: center;
   top: 0;
@@ -30,6 +31,12 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
+  -webkit-tap-highlight-color: transparent;
+`
+export const SidebarHeading = styled.h1`
+  font-size: 48px;
+  font-family: 'Josefin Sans';
+  text-align: center;
 `
 export const SidebarWrapper = styled.div`
   color: #fff;
@@ -66,22 +73,24 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `
 export const SidebarRoute = styled.p`
-  border-radius: 50px;
-  background: #A334CB;
+  border-radius: 10px;
+  background: #000;
   white-space: nowrap;
-  padding: 16px 64px;
-  color: #E6E6E6;
+  padding: 14px 64px;
+  color: #F6F6F6;
   font-size: 24px;
   outline:  none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-decoration: none;
+  font-family: 'Anton';
+  text-transform: uppercase;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
   }
 `
 export const ExtLink = styled.a`

@@ -66,7 +66,7 @@ export const TeachersList = [
 		name: 'André Isac',
 		slug: 'andre-isac',
 		description: 'Aprovado em medicina na UFPI, certa experiência com aulas particulares.',
-		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI.Tenho certa experiência com aulas particulares, sobretudo em exatas.',
+		fullDescription: 'Oii! Eu me chamo André Isac, fui aprovado em medicina na UFPI. Tenho certa experiência com aulas particulares, sobretudo em exatas.',
 		subject: 'Álgebra',
 		secondary: 'Geometria',
 		third: 'Química',
