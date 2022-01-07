@@ -15,7 +15,7 @@ export const Container = styled.section`
 	font-family: 'Josefin Sans';
   margin-top: 0;
 
-	border-bottom-right-radius: 150px;
+	border-top-right-radius: 150px;
 
 	/**
 	@keyframes gradient {
@@ -32,7 +32,7 @@ export const Container = styled.section`
  */
 
 	@media screen and (max-width: 768px) {
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
   }
 `
 export const HeroContainer = styled.section`
