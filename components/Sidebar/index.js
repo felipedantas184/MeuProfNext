@@ -10,10 +10,18 @@ const Sidebar = ({isOpen,toggle}) => {
         <SidebarHeading>MeuProf</SidebarHeading>
         <SidebarMenu>
           <div></div>
+          <li>
           <SidebarLink to='teachers' onClick={toggle}>Professores</SidebarLink>
+          </li>
+          <li>
           <SidebarLink to='highlights' onClick={toggle}>Motivos</SidebarLink>
+          </li>
+          <li>
           <SidebarLink to='perks' onClick={toggle}>Vantagens</SidebarLink>
+          </li>
+          <li>
           <SidebarLink to='start' onClick={toggle}>Enem</SidebarLink>
+          </li>
         </SidebarMenu>
         <SideBtnWrap>
           <ExtLink href="https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20o%20MeuProf.%0APode%20me%20ajudar%3F" target="blank" passHref >

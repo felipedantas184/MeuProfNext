@@ -87,16 +87,16 @@ const Footer = () => {
             </Link>
             <WebsiteRights>MeuProf © {new Date().getFullYear()} Criado por Felipe Dantas.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/meu.prof/' target='_blank' arial-label='Instagram'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/meu.prof/' target='_blank' aria-label='Instagram'>
                 <FaInstagram/>
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://www.facebook.com/MeuProf.THE/' target='_blank' arial-label='Facebook'>
+              <SocialIconLink rel="noreferrer" href='https://www.facebook.com/MeuProf.THE/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href="mailto:meuprof.contato@gmail.com" target='_blank' arial-label='Email'>
+              <SocialIconLink rel="noreferrer" href="mailto:meuprof.contato@gmail.com" target='_blank' aria-label='Email'>
                 <FaEnvelope />
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://www.linkedin.com/company/meu-prof/' target='_blank' arial-label='Linkedin'>
+              <SocialIconLink rel="noreferrer" href='https://www.linkedin.com/company/meu-prof/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
