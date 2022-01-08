@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>MeuProf | Aulas Particulares</title>
+        <title>MeuProf | Aulas Particulares & Enem</title>
         <meta name="description" content="Aulas Particulares e Preparação Enem com o MeuProf. Marque sua aula particular e prepare-se para o vestibular com os melhores!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         
