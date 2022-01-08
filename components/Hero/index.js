@@ -23,7 +23,7 @@ const Hero = () => {
 				</HalfWrapper>
 				<HalfWrapper>
 				<ImageWrapper>
-					<Image src='/SVGs/svg-6.svg' alt="Hero Image" layout="fill" />
+					<Image src='/SVGs/heroImage.png' alt="MeuProf Aula Particular & Enem" layout="fill" />
 				</ImageWrapper>
 				</HalfWrapper>
 			</GridWrapper>
