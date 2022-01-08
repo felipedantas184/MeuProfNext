@@ -20,7 +20,7 @@ export default function HowItWorks() {
         <meta property="og:site_name" content="MeuProf"/>
 
         <meta property="twitter:title" content="START ENEM - MeuProf | SUPER REVISÃO + MENTORIA"/>
-        <meta property="twitter:url" content="https://meu-prof-next.vercel.app/como-funciona/"/>
+        <meta property="twitter:url" content="https://meuprof.app.br/start-enem/"/>
         <meta property="twitter:description" content="SUPER REVISÃO + MENTORIA Meu Prof! Nós organizamos um projeto especial de revisão para vocês ficarem ainda mais seguros nessa reta final!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>

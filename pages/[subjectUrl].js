@@ -59,7 +59,7 @@ export const getStaticPaths = async () => {
         <meta property="og:site_name" content="MeuProf"/>
 
         <meta property="twitter:title" content={`${subject} | Aulas Particulares MeuProf`}/>
-        <meta property="twitter:url" content="https://meu-prof-next.vercel.app/como-funciona/"/>
+        <meta property="twitter:url" content="https://meuprof.app.br/"/>
         <meta property="twitter:description" content={`Conheça os nossos professores de ${subject} e marque sua aula particular!`}/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
