@@ -60,6 +60,7 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
 
+          <meta name="facebook-domain-verification" content="fwogdb9clr1nn2xphge853ez731oss" />
 
           <meta name="theme-color" content="#411551" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
