@@ -10,6 +10,8 @@ import Guide from '../components/Guide'
 import { GuideEight } from '../components/Guide/GuideData'
 import Enem from '../components/Enem'
 import FacebookPixel1 from '../components/Pixel/facebook/pixel-1'
+import Pixel from '../components/Pixel'
+import FACEBOOK_PIXEL_1 from '../components/Pixel/facebook/pixel-1'
 
 export default function Home() {
   return (
@@ -30,7 +32,7 @@ export default function Home() {
         <meta property="twitter:description" content="Aulas Particulares e Preparação Enem com o MeuProf. Marque sua aula particular e prepare-se para o vestibular com os melhores!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
 
-        <FacebookPixel1 />
+        <FACEBOOK_PIXEL_1 />
       </Head>
 
       <Hero />
