@@ -145,6 +145,7 @@ export const ButtonInternalLink = styled.button`
 	box-shadow: rgba(240, 46, 170, 0.2) -5px 5px;
 
 	text-decoration: none;
+	border: none;
 
 	&:hover {
 		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;

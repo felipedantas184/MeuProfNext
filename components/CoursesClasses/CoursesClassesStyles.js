@@ -1,26 +1,25 @@
 import styled from "styled-components"; 
 
-export const CoursesScoresContainer = styled.section`
-	background: #411551;
-	background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 125%);
-
+export const CoursesClassesContainer = styled.section`
+	background: #FFF;
   color: #13131A;
+
 	font-family: 'Josefin Sans';
 
   border-radius: 50px 0 50px 0;
 `
-export const CoursesScoresWrapper = styled.div`
+export const CoursesClassesWrapper = styled.div`
 	max-width: 1100px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
   padding: 75px 16px;
 `
-export const CoursesScoresHeading = styled.h1`
+export const CoursesClassesHeading = styled.h1`
   margin-bottom: 48px;
   font-size: 48px;
   line-height: 1.3;
-  color: #FFF;
+  color: #000;
   text-transform: uppercase;
   text-align: center;
 
@@ -29,30 +28,39 @@ export const CoursesScoresHeading = styled.h1`
     margin-bottom: 32px;
   }
 `
-export const CoursesScoresRow = styled.div`
-  display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
+export const CoursesClassesRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  grid-template-areas: 'col2 col1';
 
   width: 100%;
 
-  
+  gap: 24px;
+
   @media screen and (max-width: 768px) {
-    grid-template-areas: 'col1' 'col2';
+    flex-direction: column;
   }
 `
-export const CoursesScoresColumn1 = styled.div`
-  padding: 0 15px;
-  grid-area: col1;
+export const CoursesClassesColumn1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 24px;
 
   @media screen and (max-width: 768px) {
     padding: 0;
   }
 `
-export const CoursesScoresColumn2 = styled.div`
-  padding: 0 15px;
-  grid-area: col2;
+export const CoursesClassesColumn2 = styled.div`  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 24px;
 
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -61,53 +69,32 @@ export const CoursesScoresColumn2 = styled.div`
 `
 export const TextWrapper = styled.div`
 	position: relative;
-  width: 100%; 
-	background: #521b66;
-
-	padding: 30px 15px 15px 30px;
-	border-radius: 10px;
-
-  box-shadow: rgba(0, 0, 0, 0.45) 1.95px 1.95px 2.6px;
-  transition: all 0.5s ease-in-out;
-
-	&:after {
-		content: ${({first, second, third, fourth}) => (first ? '"01"' : second ? '"02"' : third ? '"03"' : fourth ? '"04"' : '""')};
-		position: absolute;
-		top: 15px;
-		right: 15px;
-		color: #E1E2E3;
-		font-size: 40px;
-		font-family: "Josefin Sans";
-		opacity: 0.7;
-	}
-	&:hover {
-  transition: all 0.5s ease-in-out;
-  transform: scale(1.025);
-}
+  width: 100%;
 `
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: #FFF;
+  color: #000;
+
+  letter-spacing: -0.5px;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 16px;
   }
 `
 export const Subtitle  = styled.p`
   max-width: 440px;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: -0.5px;
   font-family: 'Josefin Sans';
-  color: #F6F6F6;
+  color: #13131A;
 
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 `
 
@@ -126,6 +113,24 @@ export const ImgWrap = styled.div`
   }
 `;
 
+export const BoxWrap = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+	border-radius: 20px;
+	overflow: hidden;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px;
+  transition: all 0.5s ease-in-out;
+  
+  &:hover {
+		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+	}
+`;
 
 
 export const ServicesRow = styled.div`

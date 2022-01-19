@@ -1,6 +1,7 @@
-import { Container, GridWrapper, ButtonScorll, HalfUnicWrapper, ImageWrapper, LogoImageWrapper } from "../../components/UsefulComponents";
+import { Container, GridWrapper, ButtonScorll, HalfUnicWrapper, ImageWrapper, LogoImageWrapper, ButtonInternalLink } from "../../components/UsefulComponents";
 import { HeadingPrinciapl, HeadingTop, TextWrapper, Subtitle, ButtonWrapper } from "./EnemStyles";
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Enem = () => {
     return ( 
@@ -16,14 +17,16 @@ const Enem = () => {
 							<Subtitle style={{textAlign: 'center'}}>Conquiste sua aprovação com a ajuda de quem conhece bem o caminho a se seguir!</Subtitle>
 						</TextWrapper>
 						<ButtonWrapper>
-							<ButtonScorll to='teachers'	light='true'
-								smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-								Conhecer Cursos
-							</ButtonScorll>
-							<ButtonScorll to='highlights' dark='true'
-								smooth={true} duration={500} spy={true} exact='true' offset={-60}>
-								Mentoria ENEM
-							</ButtonScorll>
+							<Link href='/cursos'>
+								<ButtonInternalLink light='true'>
+									Conhecer Cursos
+								</ButtonInternalLink>
+							</Link>
+							<Link href='/cursos'>
+								<ButtonInternalLink dark='true'>
+									Mentoria ENEM
+								</ButtonInternalLink>
+							</Link>
 						</ButtonWrapper>
 					</HalfUnicWrapper>
 				</GridWrapper>

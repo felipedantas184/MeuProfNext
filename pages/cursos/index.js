@@ -8,6 +8,8 @@ import Enem from '../../components/Enem'
 import CoursesHero from '../../components/CoursesHero'
 import CoursesPerks from '../../components/CoursesPerks'
 import CoursesScores from '../../components/CoursesScores'
+import CoursesAbout from '../../components/CoursesAbout'
+import CoursesClasses from '../../components/CoursesClasses'
 
 export default function Home() {
   return (
@@ -32,6 +34,8 @@ export default function Home() {
       <CoursesHero />
       <CoursesPerks />
       <CoursesScores />
+      <CoursesClasses />
+      <CoursesAbout />
     </>
   )
 }

@@ -8,41 +8,44 @@ const CoursesScores = () => {
 					<CoursesScoresWrapper>
 						<CoursesScoresHeading>Motivos</CoursesScoresHeading>
 						<CoursesScoresRow>
-							<CoursesScoresColumn1>
+							<CoursesScoresColumn2 style={{display: 'flex', justifyContent: "flex-start"}}>
 									<Image src='/SVGs/ScoresRight.png' width={400} height={690} />
-							</CoursesScoresColumn1>
-							<CoursesScoresColumn2 style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
-								<TextWrapper first style={{marginTop: 48}}>
-									<Heading>Foco em <br/> Exercícios</Heading>
-									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
-								</TextWrapper>
-								<TextWrapper style={{marginTop: 48}}>
-									<Heading>Foco em <br/> Exercícios</Heading>
-									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
-								</TextWrapper>
 							</CoursesScoresColumn2>
+							<CoursesScoresColumn1 style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
+								<TextWrapper first>
+									<Heading>Método Que<br/> Dá Resultado</Heading>
+									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
+								</TextWrapper>
+								<TextWrapper second style={{marginTop: 48, marginBottom: 48}}>
+									<Heading>Planejamento<br/>dos Estudos</Heading>
+									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
+								</TextWrapper>
+								<ButtonScorll to='teachers' light='true' style={{marginTop: 0}}
+									smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+									Fazer Inscrição Agora!
+								</ButtonScorll>
+							</CoursesScoresColumn1>
 						</CoursesScoresRow>
 
 						<CoursesScoresRow>
-							<CoursesScoresColumn1 style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
-								<TextWrapper first style={{marginTop: 48}}>
+							<CoursesScoresColumn2 style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
+								<TextWrapper third>
 									<Heading>Foco em <br/> Exercícios</Heading>
 									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
 								</TextWrapper>
-								<TextWrapper style={{marginTop: 48}}>
-									<Heading>Foco em <br/> Exercícios</Heading>
+								<TextWrapper fourth style={{marginTop: 48, marginBottom: 48}}>
+									<Heading>Mais Perto<br /> Da Aprovação</Heading>
 									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
 								</TextWrapper>
-							</CoursesScoresColumn1>
-							<CoursesScoresColumn2>
-								<Image src='/SVGs/Scores.png' width={400} height={690} />
+								<ButtonScorll to='teachers' light='true' style={{marginTop: 0}}
+									smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+									Fazer Inscrição Agora!
+								</ButtonScorll>
 							</CoursesScoresColumn2>
-						</CoursesScoresRow>
-
-						<ButtonScorll to='teachers' light='true' style={{marginTop: 0}}
-							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
-							Fazer Inscrição Agora!
-						</ButtonScorll>					
+							<CoursesScoresColumn1 style={{display: 'flex', justifyContent: "flex-end"}} >
+								<Image src='/SVGs/Scores.png' width={400} height={690} />
+							</CoursesScoresColumn1>
+						</CoursesScoresRow>					
 					</CoursesScoresWrapper>
 				</CoursesScoresContainer>
      );
