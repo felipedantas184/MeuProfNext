@@ -11,30 +11,30 @@ export const CoursesPerksList = [
 		id: 2,
 		icon: <FaWhatsapp size={50} color="#411551" />,
 		title: 'Grupo no WhatsApp',
-		description: 'Nossos professores já possuem experiência com aulas particulares e sabem como te ajudar.'
+		description: 'Você participará de um grupo com a comunidade do curso para trocar dicas e informações.'
 	},
 	{
 		id: 3,
 		icon: <FaCalendarDay size={50} color="#411551" />,
 		title: 'Encontros Semanais',
-		description: 'Após escolher seu professor ou plano, você será encaminhado para confirmar a contratação.'
+		description: 'Acompanhamento próximo de você com inteção de te orientar nos estudos de matemática.'
 	},
 	{
 		id: 4,
 		icon: <FaStethoscope size={50} color="#411551" />,
 		title: 'Aprovados em Medicina',
-		description: 'Nossa equipe possui muito conhecimento pronto para ser compartilhado com os alunos.'
+		description: 'Somos estudantes de medicina e sabemos o que deve ser feito para conseguir a aprovação!'
 	},
     {
 		id: 5,
 		icon: <FaRoad size={50} color="#411551" />,
 		title: 'O Melhor Caminho',
-		description: 'Possuímos diferentes planos para que você escolha o que mais se adeque à sua necessidade.'
+		description: 'Uma boa nota em matemática no Enem é o melhor caminho para entrar na universidade.'
 	},
     {
 		id: 6,
 		icon: <FaLayerGroup size={50} color="#411551" />,
 		title: 'Muitos Exercícios',
-		description: 'Possuímos diferentes planos para que você escolha o que mais se adeque à sua necessidade.'
+		description: 'Serão 12 listas de exercícios selecionados para te prepara para a prova do Enem!'
 	}
 ];

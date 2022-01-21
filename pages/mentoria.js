@@ -1,16 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Hero from '../../components/Hero'
-import Highlights from '../../components/Highlights'
-import Perks from '../../components/Perks'
-import Teachers from '../../components/Teachers'
-import Enem from '../../components/Enem'
-import CoursesHero from '../../components/CoursesHero'
-import CoursesPerks from '../../components/CoursesPerks'
-import CoursesScores from '../../components/CoursesScores'
-import CoursesAbout from '../../components/CoursesAbout'
-import CoursesClasses from '../../components/CoursesClasses'
-import CoursesOffer from '../../components/CoursesOffer'
+import CoursesPerks from '../components/CoursesPerks'
+import CoursesScores from '../components/CoursesScores'
+import CoursesAbout from '../components/CoursesAbout'
+import CoursesClasses from '../components/CoursesClasses'
+import MentoriaHero from '../components/MentoriaHero'
 
 export default function Home() {
   return (
@@ -32,12 +25,11 @@ export default function Home() {
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
 
-      <CoursesHero />
+      <MentoriaHero />
       <CoursesPerks />
       <CoursesScores />
       <CoursesClasses />
       <CoursesAbout />
-      <CoursesOffer />
     </>
   )
 }

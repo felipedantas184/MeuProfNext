@@ -1,22 +1,22 @@
 import { ButtonWrapper, HeroContainer, GridWrapper, HalfWrapper, Heading, Subtitle, TextWrapper, ButtonScorll, ImageWrapper } from "../UsefulComponents";
 import Image from 'next/image'
 
-const CoursesHero = () => {
+const MentoriaHero = () => {
 	return ( 
 		<HeroContainer id="hero">
 			<GridWrapper>
 				<HalfWrapper start='true'>
 					<TextWrapper>
-						<Heading>MATEMÁTICA <br/>ATIVA MEUPROF</Heading>
+						<Heading>MENTORIA ENEM<br />MEUPROF</Heading>
 						<Subtitle>Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!</Subtitle>
 					</TextWrapper>
 					<ButtonWrapper>
-						<ButtonScorll to='offer' light='true'
-							smooth={true} duration={500} spy={true} exact='true' offset={20}>
-							FAZER INSCRIÇÃO!
+						<ButtonScorll to='teachers'	light='true'
+							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+							QUERO PARTICIPAR!
 						</ButtonScorll>
-						<ButtonScorll to='offer' dark='true'
-							smooth={true} duration={1000} spy={true} exact='true' offset={20}>
+						<ButtonScorll to='perks' dark='true'
+							smooth={true} duration={500} spy={true} exact='true' offset={0}>
 							CONHECER MAIS
 						</ButtonScorll>
 					</ButtonWrapper>	
@@ -31,4 +31,4 @@ const CoursesHero = () => {
 		);
 }
  
-export default CoursesHero;
+export default MentoriaHero;

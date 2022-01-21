@@ -123,7 +123,7 @@ const Teachers = () => {
 						{(selectedSubject) && (
 							<Link href={"/" + selectedSubjectUrl} passHref >
 							<ButtonWrapper>
-								<ButtonInternalLink light='true'>Ver Todos  de {selectedSubject}</ButtonInternalLink>
+								<ButtonInternalLink dark='true'>Ver Todos  de {selectedSubject}</ButtonInternalLink>
 							</ButtonWrapper>
 							</Link>
 						)}

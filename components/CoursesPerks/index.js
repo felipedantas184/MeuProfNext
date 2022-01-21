@@ -23,11 +23,11 @@ const CoursesPerks = () => {
 						)
 					})}
 				</CoursesPerksRow>
-				<ButtonScorll to='hero' dark='true' style={{marginTop: 48}}
-					smooth={true} duration={500} spy={true} exact='true' offset={-20}>
-					<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginRight: 16}} />
+				<ButtonScorll to='offer' dark='true' style={{marginTop: 48}}
+					smooth={true} duration={500} spy={true} exact='true' offset={20}>
+					<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginRight: 16}} />
 					Quero Participar
-					<BsChevronDoubleUp size={16} color="#F1F2F3" style={{marginLeft: 16}} />
+					<BsChevronDoubleDown size={16} color="#F1F2F3" style={{marginLeft: 16}} />
 				</ButtonScorll>
 			</CoursesPerksWrapper>
 		</CoursesPerksContainer>

@@ -14,14 +14,14 @@ const CoursesScores = () => {
 							<CoursesScoresColumn1 style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
 								<TextWrapper first>
 									<Heading>Método Que<br/> Dá Resultado</Heading>
-									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
+									<Subtitle>Fazer uma boa prova de matemática aumenta bastante sua pontuação no Enem e te deixa muito mais próximo de uma vaga na universidade.</Subtitle>
 								</TextWrapper>
 								<TextWrapper second style={{marginTop: 48, marginBottom: 48}}>
 									<Heading>Planejamento<br/>dos Estudos</Heading>
-									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
+									<Subtitle>Não fique mais perdido em matemática e estude com um planejamento inteligente e que funciona para aumentar sua nota no Enem!</Subtitle>
 								</TextWrapper>
-								<ButtonScorll to='teachers' light='true' style={{marginTop: 0}}
-									smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+								<ButtonScorll to='offer' light='true' style={{marginTop: 0}}
+									smooth={true} duration={500} spy={true} exact='true' offset={20}>
 									Fazer Inscrição Agora!
 								</ButtonScorll>
 							</CoursesScoresColumn1>
@@ -31,14 +31,14 @@ const CoursesScores = () => {
 							<CoursesScoresColumn2 style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
 								<TextWrapper third>
 									<Heading>Foco em <br/> Exercícios</Heading>
-									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
+									<Subtitle>Pare de perder tempo só estudando a teoria e coloque em prática seu conhecimento de uma maneira planejada e estratégica.</Subtitle>
 								</TextWrapper>
 								<TextWrapper fourth style={{marginTop: 48, marginBottom: 48}}>
 									<Heading>Mais Perto<br /> Da Aprovação</Heading>
-									<Subtitle>Acreditamos que botar em prática o conhecimento que foi trabalho anteriormente é essencial para um bom desempenho.</Subtitle>
+									<Subtitle>Sem dúvidas matemática é uma das chaves para a aprovação! Não deixe essa chance escapar e se prepare da melhor forma para essa prova!</Subtitle>
 								</TextWrapper>
-								<ButtonScorll to='teachers' light='true' style={{marginTop: 0}}
-									smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+								<ButtonScorll to='offer' light='true' style={{marginTop: 0}}
+									smooth={true} duration={500} spy={true} exact='true' offset={20}>
 									Fazer Inscrição Agora!
 								</ButtonScorll>
 							</CoursesScoresColumn2>

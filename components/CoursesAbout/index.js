@@ -26,8 +26,8 @@ const CoursesAbout = () => {
 									</SbjWrap>
 									<Subtitle>Me chamo André e fui aprovado para Medicina na UFPI (Picos) e na UESPI. Atualmente ajudo alunos a conquistarem sua aprovação com a nota do Enem!</Subtitle>
 								</TextWrapper>
-								<ButtonScorll to='teachers' light='true'
-									smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+								<ButtonScorll to='offer' light='true'
+									smooth={true} duration={500} spy={true} exact='true' offset={20}>
 									Fazer Inscrição Agora!
 								</ButtonScorll>
 							</CoursesAboutColumn2>
@@ -44,8 +44,8 @@ const CoursesAbout = () => {
 									</SbjWrap>
 									<Subtitle>Me chamo Felipe e sou acadêmico de Medicina pela UFPI. Eu e o André montamos esse curso para ajudar cada vez mais estudantes a conquistarem uma vaga na Universidade!</Subtitle>
 								</TextWrapper>
-								<ButtonScorll to='teachers' light='true'
-									smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+								<ButtonScorll to='offer' light='true'
+									smooth={true} duration={500} spy={true} exact='true' offset={20}>
 									Fazer Inscrição Agora!
 								</ButtonScorll>
 							</CoursesAboutColumn2>

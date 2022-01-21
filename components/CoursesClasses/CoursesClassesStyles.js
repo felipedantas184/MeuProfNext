@@ -70,6 +70,15 @@ export const CoursesClassesColumn2 = styled.div`
 export const TextWrapper = styled.div`
 	position: relative;
   width: 100%;
+
+  background: transparent;
+  border: 2.5px solid #13131A;
+
+	padding: 16px;
+	border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.45) 1.95px 1.95px 2.6px;
+  transition: all 0.5s ease-in-out;
 `
 export const Heading = styled.h1`
   margin-bottom: 24px;

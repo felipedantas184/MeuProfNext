@@ -15,10 +15,10 @@ const CoursesClasses = () => {
 									<Image src='/cronogramaI.png' width={630} height={360} />
 								</BoxWrap>
 							</CoursesClassesColumn1>
-							<CoursesClassesColumn2>
+							<CoursesClassesColumn2 style={{alignSelf: 'flex-start'}} >
 								<TextWrapper first>
 									<Heading>Estudo <br/>Inteligente</Heading>
-									<Subtitle>Me chamo André e fui aprovado para Medicina na UFPI (Picos) e na UESPI. Atualmente ajudo alunos a conquistarem sua aprovação com a nota do Enem!</Subtitle>
+									<Subtitle>Separamos os assuntos das primeiras listas de uma maneira inteligente que facilitará seu aprendizado.!</Subtitle>
 								</TextWrapper>
 							</CoursesClassesColumn2>
 						</CoursesClassesRow>
@@ -29,15 +29,15 @@ const CoursesClasses = () => {
 									<Image src='/cronogramaII.png' width={630} height={360} />
 								</BoxWrap>		
 							</CoursesClassesColumn1>
-							<CoursesClassesColumn2>
-								<TextWrapper third>
+							<CoursesClassesColumn2 style={{alignSelf: 'flex-start'}} >
+								<TextWrapper third >
 									<Heading>Questões &<br />Monitorias</Heading>
-									<Subtitle>Me chamo Felipe e sou acadêmico de Medicina pela UFPI. Eu e o André montamos esse curso para ajudar cada vez mais estudantes a conquistarem uma vaga na Universidade!</Subtitle>
+									<Subtitle>Além das listas de questões e do grupo de WhatsApp, você também terá direito a monitorias ao vivo para tirar suas dúvidas e buscar orientações!</Subtitle>
 								</TextWrapper>
 							</CoursesClassesColumn2>
 						</CoursesClassesRow>		
-						<ButtonScorll to='teachers' dark='true' style={{marginTop: 32}}
-							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+						<ButtonScorll to='offer' dark='true' style={{marginTop: 32}}
+							smooth={true} duration={500} spy={true} exact='true' offset={20}>
 							Fazer Inscrição Agora!
 						</ButtonScorll>			
 					</CoursesClassesWrapper>

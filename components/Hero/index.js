@@ -7,7 +7,7 @@ const Hero = () => {
 			<GridWrapper>
 				<HalfWrapper start='true'>
 					<TextWrapper>
-						<Heading>AULAS PARTICULARES<br />& ENEM</Heading>
+						<Heading>AULAS PARTICULARES<br /> & ENEM</Heading>
 						<Subtitle>Marque sua aula particular e prepare-se para o vestibular com os melhores!</Subtitle>
 					</TextWrapper>
 					<ButtonWrapper>
