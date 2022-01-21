@@ -8,7 +8,8 @@ export const SidebarContainer = styled.aside`
   width: 100%;
   height: 100%;
   background: #411551;
-  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 95%);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 100%);
+  background-size: 120%;
   display: grid;
   align-items: center;
   top: 0;
@@ -51,17 +52,20 @@ export const SidebarMenu = styled.ul`
     grid-template-rows: repeat(6, 60px);
   }
 `
-export const SidebarLink = styled(LinkS)`
+export const SidebarLink = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
   text-decoration: none;
   list-style: none;
-  transition: 02s ease-in-out;
+  transition: 0.2s ease-in-out;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+  user-select: none;
 
   &:hover {
     color: #A334CB;

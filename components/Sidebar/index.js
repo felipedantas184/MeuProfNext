@@ -1,4 +1,5 @@
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap, ExtLink, SidebarHeading } from './SidebarStyles'
+import Link from 'next/link'
 
 const Sidebar = ({isOpen,toggle}) => {
   return (
@@ -11,16 +12,24 @@ const Sidebar = ({isOpen,toggle}) => {
         <SidebarMenu>
           <div></div>
           <li>
-          <SidebarLink to='teachers' onClick={toggle}>Professores</SidebarLink>
+            <Link href='/#teachers' passHref>
+              <SidebarLink onClick={toggle}>Aulas Particulares</SidebarLink>
+            </Link>
           </li>
           <li>
-          <SidebarLink to='highlights' onClick={toggle}>Motivos</SidebarLink>
+            <Link href='/' passHref>
+              <SidebarLink onClick={toggle}>Cursos</SidebarLink>
+            </Link>
           </li>
           <li>
-          <SidebarLink to='perks' onClick={toggle}>Vantagens</SidebarLink>
+            <Link href='/mentoria' passHref>
+              <SidebarLink onClick={toggle}>Mentoria</SidebarLink>
+            </Link>
           </li>
           <li>
-          <SidebarLink to='start' onClick={toggle}>Enem</SidebarLink>
+            <Link href='/como-funciona' passHref>
+              <SidebarLink onClick={toggle}>Como Funciona</SidebarLink>
+            </Link>
           </li>
         </SidebarMenu>
         <SideBtnWrap>

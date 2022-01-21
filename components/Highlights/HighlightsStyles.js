@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HighlightsContainer = styled.section`
 	background: #411551;
-  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 90%);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 100%);
 
   color: #13131A;
 	font-family: 'Josefin Sans';

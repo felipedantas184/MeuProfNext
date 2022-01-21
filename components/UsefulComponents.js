@@ -37,7 +37,7 @@ export const Container = styled.section`
 `
 export const HeroContainer = styled.section`
 	background: #411551;
-	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 75%);
+	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 100%);
 	
 	color: #FFF;
 	font-family: 'Josefin Sans';
