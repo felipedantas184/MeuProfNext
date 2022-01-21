@@ -8,7 +8,7 @@ const CoursesAbout = () => {
     return ( 
         <CoursesAboutContainer id="CoursesAbout">
 					<CoursesAboutWrapper>
-						<CoursesAboutHeading>Motivos</CoursesAboutHeading>
+						<CoursesAboutHeading>Sobre Nós</CoursesAboutHeading>
 						<CoursesAboutRow>
 							<CoursesAboutColumn1>
 								<ProfilePicWrap>
@@ -42,7 +42,7 @@ const CoursesAbout = () => {
 										<ButtonTransparent noAdjust>980,6 em Matemática</ButtonTransparent>
 										<ButtonTransparent noAdjust>820,8 de Média Geral</ButtonTransparent>
 									</SbjWrap>
-									<Subtitle>Me chamo Felipe e sou acadêmico de Medicina pela UFPI. Eu e o André montamos esse curso para ajudar cada vez mais estudantes a conquistarem uma vaga na Universidade!</Subtitle>
+									<Subtitle>Me chamo Felipe e sou acadêmico de Medicina pela UFPI. Eu e o André nos juntamos para ajudar cada vez mais estudantes a conquistarem uma vaga na Universidade!</Subtitle>
 								</TextWrapper>
 								<ButtonScorll to='offer' light='true'
 									smooth={true} duration={500} spy={true} exact='true' offset={20}>

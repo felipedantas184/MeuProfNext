@@ -9,7 +9,7 @@ import { ButtonScorll } from "../UsefulComponents";
 
 const CoursesPerks = () => {
 	return ( 
-		<CoursesPerksContainer id="perks">
+		<CoursesPerksContainer id="start">
 			<CoursesPerksWrapper>
 				<CoursesPerksTitle>Vantagens</CoursesPerksTitle>
 				<CoursesPerksRow>

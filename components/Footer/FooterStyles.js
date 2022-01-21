@@ -40,7 +40,6 @@ export const FooterLinkItems = styled.div`
   @media screen and (max-width: 420px) {
     margin: 0;
     padding: 10px;
-    width: 100%;
   }
 `
 export const FooterLinkTitle = styled.h1`
@@ -53,6 +52,7 @@ export const FooterLink = styled.p`
   margin-bottom: 0.5rem;
   font-size: 14px;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
 
   &:hover {
     color: #A334CB;

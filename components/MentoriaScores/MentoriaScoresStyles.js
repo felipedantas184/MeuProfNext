@@ -1,25 +1,26 @@
 import styled from "styled-components"; 
 
-export const CoursesClassesContainer = styled.section`
-	background: #FFF;
-  color: #13131A;
+export const MentoriaScoresContainer = styled.section`
+	background: #411551;
+	background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 125%);
 
+  color: #13131A;
 	font-family: 'Josefin Sans';
 
   border-radius: 50px 0 50px 0;
 `
-export const CoursesClassesWrapper = styled.div`
+export const MentoriaScoresWrapper = styled.div`
 	max-width: 1100px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
   padding: 75px 16px;
 `
-export const CoursesClassesHeading = styled.h1`
+export const MentoriaScoresHeading = styled.h1`
   margin-bottom: 48px;
   font-size: 48px;
   line-height: 1.3;
-  color: #000;
+  color: #FFF;
   text-transform: uppercase;
   text-align: center;
 
@@ -28,39 +29,30 @@ export const CoursesClassesHeading = styled.h1`
     margin-bottom: 32px;
   }
 `
-export const CoursesClassesRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+export const MentoriaScoresRow = styled.div`
+  display: grid;
+  grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
+  grid-template-areas: 'col2 col1';
 
   width: 100%;
 
-  gap: 24px;
-
+  
   @media screen and (max-width: 768px) {
-    flex-direction: column;
+    grid-template-areas: 'col1' 'col2';
   }
 `
-export const CoursesClassesColumn1 = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  gap: 24px;
+export const MentoriaScoresColumn1 = styled.div`
+  padding: 0 15px;
+  grid-area: col1;
 
   @media screen and (max-width: 768px) {
     padding: 0;
   }
 `
-export const CoursesClassesColumn2 = styled.div`  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  gap: 24px;
+export const MentoriaScoresColumn2 = styled.div`
+  padding: 0 15px;
+  grid-area: col2;
 
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -69,41 +61,53 @@ export const CoursesClassesColumn2 = styled.div`
 `
 export const TextWrapper = styled.div`
 	position: relative;
-  width: 100%;
+  width: 100%; 
+	background: #521b66;
 
-  background: #F6F6F6;
-  border: 2px solid #411551;
-
-	padding: 16px;
+	padding: 30px 15px 15px 30px;
 	border-radius: 10px;
 
   box-shadow: rgba(0, 0, 0, 0.45) 1.95px 1.95px 2.6px;
   transition: all 0.5s ease-in-out;
+
+	&:after {
+		content: ${({first, second, third, fourth}) => (first ? '"01"' : second ? '"02"' : third ? '"03"' : fourth ? '"04"' : '""')};
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		color: #E1E2E3;
+		font-size: 40px;
+		font-family: "Josefin Sans";
+		opacity: 0.7;
+	}
+	&:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.025);
+}
 `
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: #000;
-
-  letter-spacing: -0.5px;
+  color: #FFF;
 
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 16px;
   }
 `
 export const Subtitle  = styled.p`
   max-width: 440px;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
+  letter-spacing: -0.5px;
   font-family: 'Josefin Sans';
-  color: #13131A;
+  color: #F6F6F6;
 
   @media screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `
 
@@ -122,24 +126,6 @@ export const ImgWrap = styled.div`
   }
 `;
 
-export const BoxWrap = styled.div`
-  position: relative;
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-	border-radius: 20px;
-	overflow: hidden;
-  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px;
-  transition: all 0.5s ease-in-out;
-  
-  &:hover {
-		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
-	}
-`;
 
 
 export const ServicesRow = styled.div`

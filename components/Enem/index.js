@@ -22,7 +22,7 @@ const Enem = () => {
 									Conhecer Cursos
 								</ButtonInternalLink>
 							</Link>
-							<Link href='/cursos'>
+							<Link href='/mentoria'>
 								<ButtonInternalLink dark='true'>
 									Mentoria ENEM
 								</ButtonInternalLink>

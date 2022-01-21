@@ -1,6 +1,6 @@
 import styled from "styled-components"; 
 
-export const CoursesClassesContainer = styled.section`
+export const MentoriaClassesContainer = styled.section`
 	background: #FFF;
   color: #13131A;
 
@@ -8,14 +8,14 @@ export const CoursesClassesContainer = styled.section`
 
   border-radius: 50px 0 50px 0;
 `
-export const CoursesClassesWrapper = styled.div`
+export const MentoriaClassesWrapper = styled.div`
 	max-width: 1100px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
   padding: 75px 16px;
 `
-export const CoursesClassesHeading = styled.h1`
+export const MentoriaClassesHeading = styled.h1`
   margin-bottom: 48px;
   font-size: 48px;
   line-height: 1.3;
@@ -28,7 +28,7 @@ export const CoursesClassesHeading = styled.h1`
     margin-bottom: 32px;
   }
 `
-export const CoursesClassesRow = styled.div`
+export const MentoriaClassesRow = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -42,11 +42,12 @@ export const CoursesClassesRow = styled.div`
     flex-direction: column;
   }
 `
-export const CoursesClassesColumn1 = styled.div`
+export const MentoriaClassesColumn1 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1;
 
   gap: 24px;
 
@@ -54,11 +55,12 @@ export const CoursesClassesColumn1 = styled.div`
     padding: 0;
   }
 `
-export const CoursesClassesColumn2 = styled.div`  
+export const MentoriaClassesColumn2 = styled.div`  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1;
 
   gap: 24px;
 
@@ -71,7 +73,7 @@ export const TextWrapper = styled.div`
 	position: relative;
   width: 100%;
 
-  background: #F6F6F6;
+  background: #FFF;
   border: 2px solid #411551;
 
 	padding: 16px;
@@ -95,7 +97,7 @@ export const Heading = styled.h1`
   }
 `
 export const Subtitle  = styled.p`
-  max-width: 440px;
+  max-width: 500px;
   margin-bottom: 15px;
   font-size: 20px;
   line-height: 1.2;

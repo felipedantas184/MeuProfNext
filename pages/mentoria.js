@@ -4,6 +4,10 @@ import CoursesScores from '../components/CoursesScores'
 import CoursesAbout from '../components/CoursesAbout'
 import CoursesClasses from '../components/CoursesClasses'
 import MentoriaHero from '../components/MentoriaHero'
+import MentoriaPerks from '../components/MentoriaPerks'
+import MentoriaScores from '../components/MentoriaScores'
+import MentoriaOffer from '../components/MentoriaOffer'
+import MentoriaClasses from '../components/MentoriaClasses'
 
 export default function Home() {
   return (
@@ -26,10 +30,11 @@ export default function Home() {
       </Head>
 
       <MentoriaHero />
-      <CoursesPerks />
-      <CoursesScores />
-      <CoursesClasses />
+      <MentoriaPerks />
+      <MentoriaScores />
+      <MentoriaClasses />
       <CoursesAbout />
+      <MentoriaOffer />
     </>
   )
 }

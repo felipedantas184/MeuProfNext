@@ -8,15 +8,15 @@ const MentoriaHero = () => {
 				<HalfWrapper start='true'>
 					<TextWrapper>
 						<Heading>MENTORIA ENEM<br />MEUPROF</Heading>
-						<Subtitle>Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!</Subtitle>
+						<Subtitle>Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!</Subtitle>
 					</TextWrapper>
 					<ButtonWrapper>
-						<ButtonScorll to='teachers'	light='true'
-							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+						<ButtonScorll to='offer'	light='true'
+							smooth={true} duration={500} spy={true} exact='true' offset={20}>
 							QUERO PARTICIPAR!
 						</ButtonScorll>
-						<ButtonScorll to='perks' dark='true'
-							smooth={true} duration={500} spy={true} exact='true' offset={0}>
+						<ButtonScorll to='offer' dark='true'
+							smooth={true} duration={1000} spy={true} exact='true' offset={20}>
 							CONHECER MAIS
 						</ButtonScorll>
 					</ButtonWrapper>	

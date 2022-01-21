@@ -35,9 +35,12 @@ const Footer = () => {
 								</LinkS>
 	          </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Junte-se a Nós</FooterLinkTitle>
-                <Link href="/start-enem" passHref>
+              <FooterLinkTitle>Junte-se</FooterLinkTitle>
+                <Link href="/cursos" passHref>
 									<FooterLink>Cursos Enem</FooterLink>
+								</Link>
+								<Link href="/cursos" passHref>
+									<FooterLink>Mentoria Enem</FooterLink>
 								</Link>
 	              <ExtLink href="mailto:meuprof.contato@gmail.com" target='_blank' rel="noreferrer" aria-label='Email'>
 									<FooterLink>E-mail MeuProf</FooterLink>
@@ -57,7 +60,10 @@ const Footer = () => {
 	              <ExtLink href="https://www.instagram.com/meu.prof/" target='_blank' rel="noreferrer" >
 									<FooterLink>Quem somos</FooterLink>
 								</ExtLink>
-	              <Link href="/start-enem" passHref >
+								<Link href="/#teachers" passHref >
+									<FooterLink>Professores</FooterLink>
+								</Link>
+								<Link href="/#start" passHref >
 									<FooterLink>Projetos</FooterLink>
 								</Link>
 	          </FooterLinkItems>

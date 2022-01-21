@@ -18,7 +18,7 @@ const CoursesClasses = () => {
 							<CoursesClassesColumn2 style={{alignSelf: 'flex-start'}} >
 								<TextWrapper first>
 									<Heading>Estudo <br/>Inteligente</Heading>
-									<Subtitle>Separamos os assuntos das primeiras listas de uma maneira inteligente que facilitará seu aprendizado.!</Subtitle>
+									<Subtitle>Separamos os assuntos das primeiras listas de uma maneira inteligente que facilitará seu aprendizado!</Subtitle>
 								</TextWrapper>
 							</CoursesClassesColumn2>
 						</CoursesClassesRow>
