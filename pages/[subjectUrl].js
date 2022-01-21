@@ -1,16 +1,12 @@
 import Head from 'next/head'
 import { SubjectsList, TeachersList } from "../components/Teachers/TeachersData";
 import Image from "next/image";
-import Pricing from "../components/Pricing";
 import Link from 'next/link'
 import { BtnWrap, ExtLink, TeachersBar, TeachersCard, TeachersDescription, TeachersImg, TeachersName, TeachersSubject, TeachersTextWrapper } from '../components/Teachers/TeachersStyles';
 import { SmallButton } from '../components/ButtonElement';
 import { SmallButtonTransparent } from '../components/ButtonTransparentElement';
 import { AllPerSubjectColumn1, AllPerSubjectColumn2, AllPerSubjectContainer, AllPerSubjectRow, AllPerSubjectWrapper, AllTeachersContainer, AllTeachersRow, AllTeachersWrapper, BtnWrapTwo, Heading, HeadingGlow, TextWrapper } from '../components/AllPerSubject/AllPerSubjectStyles';
-import { Link as LinkS } from "react-scroll";
-import { ButtonPurple } from '../components/ButtonPurple';
-import { BsChevronDoubleDown } from 'react-icons/bs';
-import { ButtonInternalLink, ButtonWrapper } from '../components/UsefulComponents';
+import { ButtonInternalLink, ButtonWrapper, SmallButtonTransparentExternal, SmallButtonTransparentInternal } from '../components/UsefulComponents';
 
 export const getStaticPaths = async () => {  
     // map data to an array of path objects with params (id)
@@ -94,11 +90,10 @@ export const getStaticPaths = async () => {
 										<TeachersBar />
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
-											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Marcar Aula</SmallButton>
-											</ExtLink>
+											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
+											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
+												<SmallButtonTransparentInternal transparent>Ver Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -117,11 +112,10 @@ export const getStaticPaths = async () => {
 										<TeachersBar />
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
-											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Marcar Aula</SmallButton>
-											</ExtLink>
+											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
+											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
+												<SmallButtonTransparentInternal transparent>Ver Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -140,11 +134,10 @@ export const getStaticPaths = async () => {
 										<TeachersBar />
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
-											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Marcar Aula</SmallButton>
-											</ExtLink>
+											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
+											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
+												<SmallButtonTransparentInternal transparent>Ver Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>

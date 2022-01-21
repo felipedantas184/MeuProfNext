@@ -323,9 +323,10 @@ export const SmallButtonTransparentExternal = styled.a`
 	align-items: center;
 	
 	padding: 6px 12px;
-	background-color: ${({ transparent, purple }) => (transparent ? 'transparent' : purple ? '#411551' : '#CCC')};
+	background-color: ${({ transparent, purple }) => (transparent ? 'F1F1F1' : purple ? '#411551' : '#CCC')};
 	color: ${({ transparent, purple }) => (transparent ? '#411551' : purple ? '#FFF' : '#13131A')};
-	border: 1px solid #F0EDEE;
+	border: ${({ transparent, purple }) => (transparent ? '1px solid #F0EDEE' : purple ? '1px solid #521b66' : 'none')};;
+	box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
 
 	font-family: 'Anton';
 	font-size: 16px;
@@ -357,7 +358,8 @@ export const SmallButtonTransparentInternal = styled.button`
 	padding: 6px 12px;
 	background-color: ${({ transparent, purple }) => (transparent ? 'transparent' : purple ? '#411551' : '#CCC')};
 	color: ${({ transparent, purple }) => (transparent ? '#411551' : purple ? '#F1F2F3' : '#13131A')};
-	border: 1px solid #F0EDEE;
+	border: ${({ transparent, purple }) => (transparent ? '1px solid #F0EDEE' : purple ? '1px solid #521b66' : 'none')};;
+	box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
 
 	font-family: 'Anton';
 	font-size: 16px;
@@ -370,7 +372,10 @@ export const SmallButtonTransparentInternal = styled.button`
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
 
-	text-decoration: none;
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 
 	&:hover {
 		box-shadow: rgba(240, 46, 170, 0.4) -2.5px 2.5px, rgba(240, 46, 170, 0.3) -5px 5px;

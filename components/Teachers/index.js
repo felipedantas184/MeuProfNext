@@ -61,7 +61,7 @@ const Teachers = () => {
 											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
 											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparentInternal transparent>Perfil</SmallButtonTransparentInternal>
+												<SmallButtonTransparentInternal transparent>Ver Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -84,7 +84,7 @@ const Teachers = () => {
 											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
 											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparentInternal transparent>Perfil</SmallButtonTransparentInternal>
+												<SmallButtonTransparentInternal transparent>Ver Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -107,7 +107,7 @@ const Teachers = () => {
 											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
 											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparentInternal transparent>Perfil</SmallButtonTransparentInternal>
+												<SmallButtonTransparentInternal transparent>Ver Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
