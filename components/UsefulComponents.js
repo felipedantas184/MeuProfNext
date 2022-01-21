@@ -306,7 +306,6 @@ export const ButtonScorll = styled(LinkS)`
 	transition: all 0.5s ease-in-out;
 	box-shadow: rgba(240, 46, 170, 0.2) -5px 5px;
 
-
 	&:hover {
 		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
 	}
@@ -315,6 +314,70 @@ export const ButtonScorll = styled(LinkS)`
 		max-width: 350px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+`
+export const SmallButtonTransparentExternal = styled.a`
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 6px 12px;
+	background-color: ${({ transparent, purple }) => (transparent ? 'transparent' : purple ? '#411551' : '#CCC')};
+	color: ${({ transparent, purple }) => (transparent ? '#411551' : purple ? '#FFF' : '#13131A')};
+	border: 1px solid #F0EDEE;
+
+	font-family: 'Anton';
+	font-size: 16px;
+	text-transform: uppercase;
+
+	white-space: nowrap;
+	border-radius: 6px;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+
+	text-decoration: none;
+
+	&:hover {
+		box-shadow: rgba(240, 46, 170, 0.4) -2.5px 2.5px, rgba(240, 46, 170, 0.3) -5px 5px;
+	}
+
+	@media screen and (max-width: 321px) {
+		font-size: 14px;
+	}
+`
+export const SmallButtonTransparentInternal = styled.button`
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 6px 12px;
+	background-color: ${({ transparent, purple }) => (transparent ? 'transparent' : purple ? '#411551' : '#CCC')};
+	color: ${({ transparent, purple }) => (transparent ? '#411551' : purple ? '#F1F2F3' : '#13131A')};
+	border: 1px solid #F0EDEE;
+
+	font-family: 'Anton';
+	font-size: 16px;
+	text-transform: uppercase;
+
+	white-space: nowrap;
+	border-radius: 6px;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+
+	text-decoration: none;
+
+	&:hover {
+		box-shadow: rgba(240, 46, 170, 0.4) -2.5px 2.5px, rgba(240, 46, 170, 0.3) -5px 5px;
+	}
+
+	@media screen and (max-width: 321px) {
+		font-size: 14px;
 	}
 `
 export const ImageWrapper = styled.div`

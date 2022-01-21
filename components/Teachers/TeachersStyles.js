@@ -156,11 +156,19 @@ export const SubjectName  = styled.span`
   margin-top: 16px;
 `
 export const BtnWrap = styled.div`
+  width: 100%;
+  position: relative;
+
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 2px;
+
+  gap: 8px;
+
+  @media screen and (max-width: 768px) {
+    gap: 4px;
+  }
 `;
 export const TeachersCard = styled.div`
   max-width: 500px;
@@ -181,13 +189,42 @@ export const TeachersCard = styled.div`
   &:not(:last-child) {
     margin-bottom: 16px;  
   }
+
+  @media screen and (max-width: 768px) {
+    gap: 12px;
+  }
 `
 export const TeachersImg = styled.div`
-  max-width: 115px;
-  max-height: 115px;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+	max-width: 87.5px;
+	max-height: 87.5px;
+
+  min-height: 87.5px;
+  min-width: 87.5px;
+  
   border-radius: 20px;
   overflow: hidden;
   align-self: flex-start;
+
+  @media screen and (max-width: 480px) {
+  max-width: 80px;
+	max-height: 80px;
+
+  min-height: 80px;
+  min-width: 80px;
+  }
+
+  @media screen and (max-width: 350px) {
+  max-width: 60px;
+	max-height: 60px;
+
+  min-height: 60px;
+  min-width: 60px;
+  }
 `
 export const TeachersTextWrapper = styled.div`
   display: flex;

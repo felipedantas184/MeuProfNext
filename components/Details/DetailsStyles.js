@@ -104,9 +104,16 @@ export const Classes  = styled.p`
   }
 `
 export const BtnWrap = styled.div`
+  width: auto;
+  position: relative;
+
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
+
+  gap: 16px;
+  
   margin-bottom: 32px;
 
   @media screen and (max-width: 768px) {

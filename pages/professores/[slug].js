@@ -5,7 +5,6 @@ import { BtnWrap, DetailsColumn1, DetailsColumn2, DetailsContainer, DetailsRow, 
 import { ButtonTransparent } from "../../components/ButtonTransparentElement";
 import { Link as LinkS } from "react-scroll";
 import { BsChevronDoubleDown } from "react-icons/bs";
-import Pricing from "../../components/Pricing";
 import { ButtonPurple } from "../../components/ButtonPurple";
 import Link from 'next/link'
 import Teachers from '../../components/Teachers';
@@ -84,7 +83,7 @@ export const getStaticPaths = async () => {
                   )}
                 </SbjWrap>
                 <Subtitle>{teacher.fullDescription}</Subtitle>
-                <ButtonWrapper>
+                <ButtonWrapper style={{maxWidth: 500}} >
                   <ButtonLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20particular.%0APode%20me%20ajudar%3F`} target="blank"  light='true' style={{marginLeft: 0}} >
                     Agendar Horário
                   </ButtonLink>

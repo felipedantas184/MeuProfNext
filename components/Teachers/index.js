@@ -1,12 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Button, SmallButton } from "../ButtonElement";
-import { SmallButtonTransparent } from "../ButtonTransparentElement";
 import { BtnWrap, ExtLink, Heading, ImgWrap, Spinner, SubjectBlock, SubjectName, SubjectWpr, Subtitle, TeachersBar, TeachersCard, TeachersColumn1, TeachersColumn2, TeachersContainer, TeachersDescription, TeachersImg, TeachersName, TeachersRow, TeachersSubject, TeachersTextWrapper, TeachersWrapper, TextWrapper, Warning } from "./TeachersStyles";
 import { TeachersList, SubjectsList } from "./TeachersData";
 import { useState } from "react";
-import { FaSpinner } from "react-icons/fa";
-import { ButtonInternalLink, ButtonWrapper } from "../UsefulComponents";
+import { ButtonInternalLink, ButtonWrapper, SmallButtonTransparentInternal, SmallButtonTransparentExternal } from "../UsefulComponents";
 
 const Teachers = () => {
 	const [selectedSubject, setSelectedSubject] = useState('')
@@ -53,7 +50,7 @@ const Teachers = () => {
 							return (
 								<TeachersCard key={teacher.id} >
 									<TeachersImg>
-										<Image src={teacher.photo} alt="" width={115} height={115} />
+										<Image src={teacher.photo} alt="" layout="fill" />
 									</TeachersImg>
 									<TeachersTextWrapper>
 										<TeachersName>{teacher.name}</TeachersName>
@@ -61,11 +58,10 @@ const Teachers = () => {
 										<TeachersBar />
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
-											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Marcar Aula</SmallButton>
-											</ExtLink>
+											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
+											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
+												<SmallButtonTransparentInternal transparent>Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -77,7 +73,7 @@ const Teachers = () => {
 							return (
 								<TeachersCard key={teacher.id} >
 									<TeachersImg>
-										<Image src={teacher.photo} alt="" width={115} height={115} />
+										<Image src={teacher.photo} alt="" layout="fill" />
 									</TeachersImg>
 									<TeachersTextWrapper>
 										<TeachersName>{teacher.name}</TeachersName>
@@ -85,11 +81,10 @@ const Teachers = () => {
 										<TeachersBar />
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
-											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Marcar Aula</SmallButton>
-											</ExtLink>
+											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
+											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
+												<SmallButtonTransparentInternal transparent>Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
@@ -101,7 +96,7 @@ const Teachers = () => {
 							return (
 								<TeachersCard key={teacher.id} >
 									<TeachersImg>
-										<Image src={teacher.photo} alt="" width={115} height={115} />
+										<Image src={teacher.photo} alt="" layout="fill" />
 									</TeachersImg>
 									<TeachersTextWrapper>
 										<TeachersName>{teacher.name}</TeachersName>
@@ -109,11 +104,10 @@ const Teachers = () => {
 										<TeachersBar />
 										<TeachersDescription>{teacher.description}</TeachersDescription>
 										<BtnWrap>
-											<ExtLink href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >
-												<SmallButton>Marcar Aula</SmallButton>
-											</ExtLink>
+											<SmallButtonTransparentExternal purple href={`https://api.whatsapp.com/send?phone=${teacher.number}&text=Ol%C3%A1!%20Encontrei%20voc%C3%AA%20pelo%20MeuProf!%20`} target="blank" >Marcar Aula</SmallButtonTransparentExternal>
+											
 											<Link href={"/professores/" + teacher.slug} passHref >
-												<SmallButtonTransparent>Perfil</SmallButtonTransparent>
+												<SmallButtonTransparentInternal transparent>Perfil</SmallButtonTransparentInternal>
 											</Link>
 										</BtnWrap>
 									</TeachersTextWrapper>
