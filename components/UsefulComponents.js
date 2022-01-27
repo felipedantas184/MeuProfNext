@@ -435,15 +435,25 @@ export const HalfUnicWrapper = styled.div`
 
 export const OfferPricingFigure = styled.div`
   font-size: 60px;
-  margin-bottom: 15px;
 
 	text-align: center;
-	margin-top: 16px;
 	margin-bottom: 16px;
+`
+export const OfferPricingFigureOlder = styled.div`
+  font-size: 40px;
+
+	text-align: center;
 `
 export const OfferPricingCurrency = styled.span`
   vertical-align: super;
 	font-size: 26px;
+	-webkit-opacity: 0.6;
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+`
+export const OfferPricingCurrencyOlder = styled.span`
+  vertical-align: super;
+	font-size: 18px;
 	-webkit-opacity: 0.6;
 	-moz-opacity: 0.6;
 	opacity: 0.6;
@@ -453,6 +463,13 @@ export const OfferPricingNumber = styled.span`
   font-family: 'Anton';
 
   color: #25D366;
+`
+export const OfferPricingNumberOlder = styled.span`
+  font-weight: 300;
+  font-family: 'Anton';
+
+  color: #A4A4A4;
+  text-decoration: line-through;
 `
 export const OfferPricingInterval = styled.span`
   font-weight: 400;

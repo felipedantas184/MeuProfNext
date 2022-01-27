@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa";
-import { OfferContainer, GridWrapper, HalfUnicWrapper, OfferHeading, OfferSubtitle, TextWrapper, Topline, ToplineTwo, OfferTextWrapper, ButtonScorll, ListItem, OfferPricingCurrency, OfferPricingFigure, OfferPricingInterval, OfferPricingList, OfferPricingNumber, ButtonLink } from "../UsefulComponents";
+import { OfferContainer, GridWrapper, HalfUnicWrapper, OfferHeading, OfferSubtitle, TextWrapper, Topline, ToplineTwo, OfferTextWrapper, ButtonScorll, ListItem, OfferPricingCurrency, OfferPricingFigure, OfferPricingInterval, OfferPricingList, OfferPricingNumber, ButtonLink, OfferPricingFigureOlder, OfferPricingCurrencyOlder, OfferPricingNumberOlder } from "../UsefulComponents";
 
 const CoursesOffer = () => {
 	return (
@@ -16,6 +16,9 @@ const CoursesOffer = () => {
 					</div>
 					
 					<div>
+						<OfferPricingFigureOlder>
+							<OfferPricingCurrencyOlder>R$ </OfferPricingCurrencyOlder><OfferPricingNumberOlder>147,00</OfferPricingNumberOlder>
+						</OfferPricingFigureOlder>
 						<OfferPricingFigure>
 							<OfferPricingCurrency>R$ </OfferPricingCurrency><OfferPricingNumber>97,00</OfferPricingNumber>
 						</OfferPricingFigure>

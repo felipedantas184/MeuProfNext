@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa";
-import { OfferContainer, GridWrapper, HalfUnicWrapper, OfferHeading, OfferSubtitle, TextWrapper, Topline, ToplineTwo, OfferTextWrapper, ButtonScorll, ListItem, OfferPricingCurrency, OfferPricingFigure, OfferPricingInterval, OfferPricingList, OfferPricingNumber, ButtonLink } from "../UsefulComponents";
+import { OfferContainer, GridWrapper, HalfUnicWrapper, OfferHeading, OfferSubtitle, TextWrapper, Topline, ToplineTwo, OfferTextWrapper, ButtonScorll, ListItem, OfferPricingCurrency, OfferPricingFigure, OfferPricingInterval, OfferPricingList, OfferPricingNumber, ButtonLink, OfferPricingFigureOlder, OfferPricingNumberOlder, OfferPricingCurrencyOlder } from "../UsefulComponents";
 
 const MentoriaOffer = () => {
 	return (
@@ -16,8 +16,11 @@ const MentoriaOffer = () => {
 					</div>
 					
 					<div>
+						<OfferPricingFigureOlder>
+							<OfferPricingCurrencyOlder>R$ </OfferPricingCurrencyOlder><OfferPricingNumberOlder>107,00</OfferPricingNumberOlder>
+						</OfferPricingFigureOlder>
 						<OfferPricingFigure>
-							<OfferPricingCurrency>R$ </OfferPricingCurrency><OfferPricingNumber>147,00</OfferPricingNumber>
+							<OfferPricingCurrency>R$ </OfferPricingCurrency><OfferPricingNumber>67,00</OfferPricingNumber>
 						</OfferPricingFigure>
 						<OfferPricingList>
 							<ListItem><FaCheck size={14} color="#D1D1D1" style={{marginRight: 6}}/>Encontros ao vivo</ListItem>
