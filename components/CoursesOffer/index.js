@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa";
-import { OfferContainer, GridWrapper, HalfUnicWrapper, OfferHeading, OfferSubtitle, TextWrapper, Topline, ToplineTwo, OfferTextWrapper, ButtonScorll, ListItem, OfferPricingCurrency, OfferPricingFigure, OfferPricingInterval, OfferPricingList, OfferPricingNumber } from "../UsefulComponents";
+import { OfferContainer, GridWrapper, HalfUnicWrapper, OfferHeading, OfferSubtitle, TextWrapper, Topline, ToplineTwo, OfferTextWrapper, ButtonScorll, ListItem, OfferPricingCurrency, OfferPricingFigure, OfferPricingInterval, OfferPricingList, OfferPricingNumber, ButtonLink } from "../UsefulComponents";
 
 const CoursesOffer = () => {
 	return (
@@ -28,10 +28,9 @@ const CoursesOffer = () => {
 							<ListItem><FaCheck size={14} color="#D1D1D1" style={{marginRight: 6}}/>Acompanhamento</ListItem>
 						</OfferPricingList>
 						
-						<ButtonScorll to='teachers' light='true'
-							smooth={true} duration={500} spy={true} exact='true' offset={-20}>
+						<ButtonLink href="https://docs.google.com/forms/d/e/1FAIpQLSfXro0rkG8s5WmpnuDn2sYlmALA3cSjlYAtg32c6Hx13Bb9zQ/viewform?usp=sf_link" rel="noreferrer" target="_blank" light='true'>
 							Fazer Inscrição Agora!
-						</ButtonScorll>
+						</ButtonLink>
 					</div>
 					</OfferTextWrapper>
 				</HalfUnicWrapper>

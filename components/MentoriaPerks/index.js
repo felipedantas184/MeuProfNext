@@ -9,7 +9,7 @@ import { ButtonScorll } from "../UsefulComponents";
 
 const MentoriaPerks = () => {
 	return ( 
-		<MentoriaPerksContainer id="start">
+		<MentoriaPerksContainer id="mentoriaPerks">
 			<MentoriaPerksWrapper>
 				<MentoriaPerksTitle>Vantagens</MentoriaPerksTitle>
 				<MentoriaPerksRow>

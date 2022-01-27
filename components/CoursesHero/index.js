@@ -15,8 +15,8 @@ const CoursesHero = () => {
 							smooth={true} duration={500} spy={true} exact='true' offset={20}>
 							FAZER INSCRIÇÃO!
 						</ButtonScorll>
-						<ButtonScorll to='offer' dark='true'
-							smooth={true} duration={1000} spy={true} exact='true' offset={20}>
+						<ButtonScorll to='coursesPerks' dark='true'
+							smooth={true} duration={1000} spy={true} exact='true' offset={0}>
 							CONHECER MAIS
 						</ButtonScorll>
 					</ButtonWrapper>	

@@ -15,8 +15,8 @@ const MentoriaHero = () => {
 							smooth={true} duration={500} spy={true} exact='true' offset={20}>
 							QUERO PARTICIPAR!
 						</ButtonScorll>
-						<ButtonScorll to='offer' dark='true'
-							smooth={true} duration={1000} spy={true} exact='true' offset={20}>
+						<ButtonScorll to='mentoriaPerks' dark='true'
+							smooth={true} duration={1000} spy={true} exact='true' offset={0}>
 							CONHECER MAIS
 						</ButtonScorll>
 					</ButtonWrapper>	

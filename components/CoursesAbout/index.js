@@ -22,7 +22,7 @@ const CoursesAbout = () => {
 										<ButtonTransparent noAdjust>Medicina UFPI</ButtonTransparent>
 										<ButtonTransparent noAdjust>Medicina UESPI</ButtonTransparent>
 										<ButtonTransparent noAdjust>926 em Matemática</ButtonTransparent>
-										<ButtonTransparent noAdjust>820,8 Média Geral</ButtonTransparent>
+										<ButtonTransparent noAdjust>793,4 Média Geral</ButtonTransparent>
 									</SbjWrap>
 									<Subtitle>Me chamo André e fui aprovado para Medicina na UFPI (Picos) e na UESPI. Atualmente ajudo alunos a conquistarem sua aprovação com a nota do Enem!</Subtitle>
 								</TextWrapper>
