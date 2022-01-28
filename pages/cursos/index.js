@@ -16,17 +16,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CURSO DE MATEMÁTICA ENEM - MeuProf | Aulas Particulares & Enem</title>
+        <title>Curso de Matemática Enem - MeuProf | Aulas Particulares & Enem</title>
         <meta name="description" content="Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         
-        <meta property="og:title" content="CURSO DE MATEMÁTICA ENEM - MeuProf | Aulas Particulares & Enem"/>
+        <meta property="og:title" content="Curso de Matemática Enem - MeuProf | Aulas Particulares & Enem"/>
         <meta property="og:type" content="school"/>
         <meta property="og:description" content="Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!"/>
         <meta property="og:image" content="/apple-touch-icon.png"/>
         <meta property="og:site_name" content="MeuProf"/>
 
-        <meta property="twitter:title" content="CURSO DE MATEMÁTICA ENEM - MeuProf | Aulas Particulares & Enem"/>
+        <meta property="twitter:title" content="Curso de Matemática Enem - MeuProf | Aulas Particulares & Enem"/>
         <meta property="twitter:url" content="https://meuprof.app.br/cursos"/>
         <meta property="twitter:description" content="Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>

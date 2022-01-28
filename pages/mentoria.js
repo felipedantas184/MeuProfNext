@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:site_name" content="MeuProf"/>
 
         <meta property="twitter:title" content="MENTORIA ENEM - MeuProf | Aulas Particulares & Enem"/>
-        <meta property="twitter:url" content="https://meuprof.app.br/"/>
+        <meta property="twitter:url" content="https://meuprof.app.br/mentoria/"/>
         <meta property="twitter:description" content="Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>

@@ -48,7 +48,7 @@ export const getStaticPaths = async () => {
         <meta name="description" content={`Conheça os nossos professores de ${subject} e marque sua aula particular!`}></meta>
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-		<meta property="og:title" content={`${subject} | Aulas Particulares MeuProf`}/>
+		    <meta property="og:title" content={`${subject} | Aulas Particulares MeuProf`}/>
         <meta property="og:type" content="school"/>
         <meta property="og:description" content={`Conheça os nossos professores de ${subject} e marque sua aula particular!`}/>
         <meta property="og:image" content="/apple-touch-icon.png" />
