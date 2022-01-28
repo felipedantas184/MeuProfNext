@@ -16,19 +16,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>MeuProf | Aulas Particulares & Enem</title>
-        <meta name="description" content="Aulas Particulares e Preparação Enem com o MeuProf. Marque sua aula particular e prepare-se para o vestibular com os melhores!" />
+        <title>CURSO DE MATEMÁTICA ENEM - MeuProf | Aulas Particulares & Enem</title>
+        <meta name="description" content="Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         
-        <meta property="og:title" content="MeuProf | Aulas Particulares & Enem"/>
+        <meta property="og:title" content="CURSO DE MATEMÁTICA ENEM - MeuProf | Aulas Particulares & Enem"/>
         <meta property="og:type" content="school"/>
-        <meta property="og:description" content="Aulas Particulares e Preparação Enem com o MeuProf. Marque sua aula particular e prepare-se para o vestibular com os melhores!"/>
+        <meta property="og:description" content="Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!"/>
         <meta property="og:image" content="/apple-touch-icon.png"/>
         <meta property="og:site_name" content="MeuProf"/>
 
-        <meta property="twitter:title" content="MeuProf | Aulas Particulares"/>
-        <meta property="twitter:url" content="https://meuprof.app.br/"/>
-        <meta property="twitter:description" content="Aulas Particulares e Preparação Enem com o MeuProf. Marque sua aula particular e prepare-se para o vestibular com os melhores!"/>
+        <meta property="twitter:title" content="CURSO DE MATEMÁTICA ENEM - MeuProf | Aulas Particulares & Enem"/>
+        <meta property="twitter:url" content="https://meuprof.app.br/cursos"/>
+        <meta property="twitter:description" content="Estude matemática para o Enem de forma correta e fique mais próximo da sua aprovação!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
 

@@ -9,8 +9,11 @@ export const Container404 = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to right top, #3F5EFB, #FC466B);
-  font-family: "Roboto";
+  background: #411551;
+	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(65,21,81,1) 75%);
+  font-family: "Josefin Sans";
+  color: #E6E6E6;
+  margin-top: -60px;
 
   h1 {
     font-size: 3em;
@@ -21,6 +24,6 @@ export const Container404 = styled.div`
     margin-bottom: 16px;
   }
   .BackLink {
-    color: #D4D4D4
+    color: #FFF
   }
 `
