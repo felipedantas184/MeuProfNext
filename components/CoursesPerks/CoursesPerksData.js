@@ -17,7 +17,7 @@ export const CoursesPerksList = [
 		id: 3,
 		icon: <FaCalendarDay size={50} color="#411551" />,
 		title: 'Encontros Semanais',
-		description: 'Acompanhamento próximo de você com inteção de te orientar nos estudos de matemática.'
+		description: 'Acompanhamento próximo de você com intenção de te orientar nos estudos de matemática.'
 	},
 	{
 		id: 4,
@@ -35,6 +35,6 @@ export const CoursesPerksList = [
 		id: 6,
 		icon: <FaLayerGroup size={50} color="#411551" />,
 		title: 'Muitos Exercícios',
-		description: 'Serão 12 listas de exercícios selecionados para te prepara para a prova do Enem!'
+		description: 'Serão 12 listas de exercícios selecionados para te preparar para a prova do Enem!'
 	}
 ];
