@@ -469,7 +469,6 @@ export const OfferPricingNumberOlder = styled.span`
   font-family: 'Anton';
 
   color: #A4A4A4;
-  text-decoration: line-through;
 `
 export const OfferPricingInterval = styled.span`
   font-weight: 400;

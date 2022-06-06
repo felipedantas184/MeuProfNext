@@ -43,7 +43,7 @@ const CoursesScores = () => {
 								</ButtonScorll>
 							</CoursesScoresColumn2>
 							<CoursesScoresColumn1 style={{display: 'flex', justifyContent: "flex-end"}} >
-								<Image src='/SVGs/Scores.png' width={400} height={690} />
+								<Image src='/SVGs/scoresThumb.png' width={335} height={595} />
 							</CoursesScoresColumn1>
 						</CoursesScoresRow>					
 					</CoursesScoresWrapper>

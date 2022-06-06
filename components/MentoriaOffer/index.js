@@ -17,10 +17,10 @@ const MentoriaOffer = () => {
 					
 					<div>
 						<OfferPricingFigureOlder>
-							<OfferPricingCurrencyOlder>R$ </OfferPricingCurrencyOlder><OfferPricingNumberOlder>107,00</OfferPricingNumberOlder>
+							<OfferPricingCurrencyOlder>R$ </OfferPricingCurrencyOlder><OfferPricingNumberOlder>120,00</OfferPricingNumberOlder>
 						</OfferPricingFigureOlder>
 						<OfferPricingFigure>
-							<OfferPricingCurrency>R$ </OfferPricingCurrency><OfferPricingNumber>67,00</OfferPricingNumber>
+							<OfferPricingCurrency>2x R$ </OfferPricingCurrency><OfferPricingNumber>60,00</OfferPricingNumber>
 						</OfferPricingFigure>
 						<OfferPricingList>
 							<ListItem><FaCheck size={14} color="#D1D1D1" style={{marginRight: 6}}/>Encontros ao vivo</ListItem>

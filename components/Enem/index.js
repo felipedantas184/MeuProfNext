@@ -19,7 +19,7 @@ const Enem = () => {
 						<ButtonWrapper>
 							<Link href='/cursos'>
 								<ButtonInternalLink light='true'>
-									Conhecer Cursos
+									Curso de Matemática
 								</ButtonInternalLink>
 							</Link>
 							<Link href='/mentoria'>
