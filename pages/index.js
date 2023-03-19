@@ -35,11 +35,12 @@ export default function Home() {
         <FACEBOOK_PIXEL_1 />
       </Head>
 
-      <Hero />
-      <Teachers />
-      <Highlights />
-      <Perks />
-      <Enem />
+      <MentoriaHero />
+      <MentoriaPerks />
+      <MentoriaScores />
+      <MentoriaClasses />
+      <CoursesAbout />
+      <MentoriaOffer />
     </>
   )
 }
