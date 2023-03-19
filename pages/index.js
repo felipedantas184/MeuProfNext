@@ -13,6 +13,12 @@ import FacebookPixel1 from '../components/Pixel/facebook/pixel-1'
 import Pixel from '../components/Pixel'
 import FACEBOOK_PIXEL_1 from '../components/Pixel/facebook/pixel-1'
 
+import CoursesAbout from '../components/CoursesAbout'
+import MentoriaHero from '../components/MentoriaHero'
+import MentoriaPerks from '../components/MentoriaPerks'
+import MentoriaScores from '../components/MentoriaScores'
+import MentoriaOffer from '../components/MentoriaOffer'
+import MentoriaClasses from '../components/MentoriaClasses'
 export default function Home() {
   return (
     <>

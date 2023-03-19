@@ -7,7 +7,7 @@ const MentoriaHero = () => {
 			<GridWrapper>
 				<HalfWrapper start='true'>
 					<TextWrapper>
-						<Heading>MENTORIA ENEM<br />MEUPROF</Heading>
+						<Heading>MENTORIA ENEM<br />RD MONITORIA</Heading>
 						<Subtitle>Acompanhamento individual e preparação o Enem com a eficiência e qualidade de quem já trilhou esse caminho!</Subtitle>
 					</TextWrapper>
 					<ButtonWrapper>
